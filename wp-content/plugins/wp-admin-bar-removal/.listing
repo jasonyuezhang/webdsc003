@@ -1,0 +1,14 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 Sep 25 18:32 .
+drwxrwxrwx   17 Iusr_11895 inetuser         4096 Oct 14 23:31 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser         1061 Sep 16 15:40 .htaccess
+-rw----r--    1 Iusr_11895 inetuser         1062 Aug  1 10:09 checksum.txt
+-rwxrwxrwx    1 Iusr_11895 inetuser        18092 Sep 16 15:40 gpl-2.0.txt
+-rw----r--    1 Iusr_11895 inetuser         1239 Aug  1 10:09 humans.txt
+-rw----r--    1 Iusr_11895 inetuser          552 Aug  1 10:09 index.htm
+-rwxrwxrwx    1 Iusr_11895 inetuser          560 Sep 16 15:40 index.html
+-rwxrwxrwx    1 Iusr_11895 inetuser          769 Sep 16 15:40 index.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        18092 Sep 16 15:40 license.txt
+-rwxrwxrwx    1 Iusr_11895 inetuser        17112 Sep 16 15:40 readme.txt
+-rwxrwxrwx    1 Iusr_11895 inetuser          547 Sep 16 15:40 wp-admin-bar-removal.css
+-rwxrwxrwx    1 Iusr_11895 inetuser          571 Sep 16 15:40 wp-admin-bar-removal.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        18890 Sep 16 15:40 wp-admin-bar-removal.php

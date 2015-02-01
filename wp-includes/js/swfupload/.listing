@@ -1,0 +1,8 @@
+drwxrwxrwx    3 Iusr_11895 inetuser         4096 May 25 15:10 .
+drwxrwxrwx   11 Iusr_11895 inetuser         4096 Sep 16 13:16 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser        12655 Jul 27 18:13 handlers.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         8867 Jul 27 18:13 handlers.min.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         1540 Jul 27 18:13 license.txt
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 15:10 plugins
+-rwxrwxrwx    1 Iusr_11895 inetuser        37691 Sep 16 13:16 swfupload.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        13133 Jul 27 18:13 swfupload.swf

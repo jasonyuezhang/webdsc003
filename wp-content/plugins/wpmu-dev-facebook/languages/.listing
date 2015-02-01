@@ -1,0 +1,4 @@
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 25 18:32 .
+drwx---r-x    7 Iusr_11895 inetuser         4096 Sep 25 18:32 ..
+-rw----r--    1 Iusr_11895 inetuser           24 Aug  1 10:09 .gitignore
+-rw----r--    1 Iusr_11895 inetuser        52766 Aug  1 10:09 wpmu-dev-facebook-default.po

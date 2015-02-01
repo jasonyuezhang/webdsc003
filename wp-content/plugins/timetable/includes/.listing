@@ -1,0 +1,12 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 .
+drwxrwxrwx   12 Iusr_11895 inetuser         4096 May 25 14:21 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser          701 Jul 27 17:15 ITimetableForm.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         7893 Jul 27 17:15 TimetableActiveRecord.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         3798 Jul 27 17:15 TimetableAdmin.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1561 Jul 27 17:15 TimetableApp.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5653 Jul 27 17:15 TimetableDb.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1500 Jul 27 17:15 TimetableForm.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         2196 Jul 27 17:15 TimetableHtml.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4315 Jul 27 17:15 TimetableInit.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        22292 Jul 27 17:15 TimetableOptions.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5001 Jul 27 17:15 TimetableTime.php

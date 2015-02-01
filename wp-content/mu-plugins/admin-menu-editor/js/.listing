@@ -1,0 +1,10 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:52 .
+drwxrwxrwx    6 Iusr_11895 inetuser         4096 May 25 13:52 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser          302 May 25 16:23 admin-helpers.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        43758 May 25 16:23 jquery.form.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         4737 May 25 16:23 jquery.json.js
+-rwxrwxrwx    1 Iusr_11895 inetuser       154392 May 25 16:23 jquery.qtip.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        57326 May 25 16:23 jquery.qtip.min.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         1904 May 25 16:23 jquery.sort.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        97856 May 25 16:23 menu-editor.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         8286 May 25 16:23 menu-highlight-fix.js

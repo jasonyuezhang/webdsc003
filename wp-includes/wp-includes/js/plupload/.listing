@@ -1,0 +1,10 @@
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 .
+drwx---r-x   11 Iusr_11895 inetuser         4096 Sep 20 19:12 ..
+-rw----r--    1 Iusr_11895 inetuser        15969 Sep 20 19:12 handlers.js
+-rw----r--    1 Iusr_11895 inetuser        10467 Sep 20 19:12 handlers.min.js
+-rw----r--    1 Iusr_11895 inetuser        17987 Sep 20 19:12 license.txt
+-rw----r--    1 Iusr_11895 inetuser        28902 Sep 20 19:12 plupload.flash.swf
+-rw----r--    1 Iusr_11895 inetuser       108163 Sep 20 19:12 plupload.full.min.js
+-rw----r--    1 Iusr_11895 inetuser        62535 Sep 20 19:12 plupload.silverlight.xap
+-rw----r--    1 Iusr_11895 inetuser        10560 Sep 20 19:12 wp-plupload.js
+-rw----r--    1 Iusr_11895 inetuser         4896 Sep 20 19:12 wp-plupload.min.js

@@ -1,0 +1,246 @@
+.portal,
+.left-portal,
+.right-portal,
+.portal-circle a,
+.portal-logo,
+.portal-circle {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.left-portal {
+    padding: 4em 5% 2.5em 25%;
+}
+
+.right-portal {
+    padding: 4em 25% 2.5em 5%;
+}
+
+.left-portal a, .right-portal a {
+    display: block;
+    border-radius: 50em;
+}
+
+.portal-circle {
+    width: 25em;
+    height: 25em;
+    margin: 0 auto;
+    display: block;
+    z-index: -2;
+    background: url(../images/portal1-bw.png);
+    border-radius: 30em;
+    box-shadow: inset 0px 0px 4em 0px rgba(57,57,57,.3),
+                inset 0px -0.6em 0.8em 0px rgba(223,223,223,.5);
+    -webkit-transition: background-color .05s ease-out, box-shadow .05s ease-out;
+    -moz-transition: background-color .05s ease-out, box-shadow .05s ease-out;
+    -o-transition: background-color .05s ease-out, box-shadow .05s ease-out;
+    transition: background-color .05s ease-out, box-shadow .05s ease-out;
+}
+
+.portal-circle-hover {
+    background: url(../images/portal1.png);
+    box-shadow: inset 0px 0px 9em 0px rgba(87,202,142,1),
+                inset 0px 0px 36px 0px rgba(67,182,122,1),
+                inset 0px 0px 4px 4px rgba(87,202,142,1);
+    -webkit-transition: background .05s ease-out, box-shadow .05s ease-out;
+    -moz-transition: background .05s ease-out, box-shadow .05s ease-out;
+    -o-transition: background .05s ease-out, box-shadow .05s ease-out;
+    transition: background .05s ease-out, box-shadow .05s ease-out;
+}
+
+.portal-circle a {
+    font-family: Oswald;
+    color: rgb(37,37,37);
+    text-shadow: 0px 1px 1px rgba(250,250,250,0.05);
+    display: block;
+    top: 1.33em;
+    left: 1.33em;
+    position: relative;
+    text-decoration: none;
+    box-shadow: 0px 1.2em 1.2em 0px rgba(0,0,0,0.35),
+                0px -1.2em 1.2em 0px rgba(255,255,255,.65),
+                inset 0px 0px 0.6em 0px rgba(150,150,150,0.5);
+    width: 22.34em;
+    height: 22.34em;
+    border: 0;
+    border-radius: 30em;
+    text-align: center;
+    -webkit-transition: box-shadow .05s ease-out;
+    -moz-transition: box-shadow .05s ease-out;
+    -o-transition: box-shadow .05s ease-out;
+    transition: box-shadow .05s ease-out;
+}
+
+.portal-circle .portal-hover {
+    box-shadow: 0px 1.2em 1.2em 0px rgba(7,122,62,0.35),
+                0px -1.2em 1.2em 0px rgba(137,252,192,.65),
+                inset 0px 0px 0.6em 0px rgba(97,212,152,0.5);
+    -webkit-transition: box-shadow .05s ease-out;
+    -moz-transition: box-shadow .05s ease-out;
+    -o-transition: box-shadow .05s ease-out;
+    transition: box-shadow .05s ease-out;
+}
+
+.portal-logo {
+    display: block;
+    color: #4a4a4a;
+    top: 1.8em;
+    position: relative;
+    margin: auto;
+    font: 700 4.5em Oswald, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: color .4s ease-out, box-shadow .4s ease-out;
+    -moz-transition: color .4s ease-out, box-shadow .4s ease-out;
+    -o-transition: color .4s ease-out, box-shadow .4s ease-out;
+    transition: color .4s ease-out, box-shadow .4s ease-out;
+}
+
+.portal-logo-hover {
+    color: #000;
+    text-shadow: 0.04em 0.19em 0.15em #078a3e;
+    -webkit-transition: color .05s ease-out, text-shadow .05s ease-out;
+    -moz-transition: color .05s ease-out, text-shadow .05s ease-out;
+    -o-transition: color .05s ease-out, text-shadow .05s ease-out;
+    transition: color .05s ease-out, text-shadow .05s ease-out;
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        display: block ;
+        opacity: 1;
+    }
+
+    99% {
+        display: block ;
+        opacity: 0;
+    }
+
+    100% {
+        display:none;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    100% {
+        display: block ;
+        opacity: 1;
+    }
+
+    1% {
+        display: block ;
+        opacity: 0;
+    }
+
+    0% {
+        display:none;
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .left-portal {
+        padding: 3em 5% 2em 22%;
+    }
+
+    .right-portal {
+        padding: 3em 22% 2em 5%;
+    }
+
+    .portal-circle {
+        height: 22em;
+        width: 22em;
+    }
+
+    .portal-circle a {
+        top: 1.17em;
+        left: 1.17em;
+        height: 19.66em;
+        width: 19.66em;
+    }
+
+    .portal-logo {
+        font-size: 4.1em;
+        top: 1.72em;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .left-portal {
+        padding: 2em 0;
+    }
+
+    .right-portal {
+        padding: 2em 0;
+    }
+
+    .portal-circle {
+        height: 25em;
+        width: 25em;
+    }
+    
+    .portal-circle a {
+        top: 1.33em;
+        left: 1.33em;
+        height: 22.34em;
+        width: 22.34em;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .left-portal {
+        padding: 2em 0;
+    }
+
+    .right-portal {
+        padding: 2em 0;
+    }
+
+    .portal-circle {
+        height: 22em;
+        width: 22em;
+    }
+
+    .portal-circle a {
+        top: 1.17em;
+        left: 1.17em;
+        height: 19.66em;
+        width: 19.66em;
+    }
+
+    .portal-logo {
+        font-size: 4.1em;
+        top: 1.72em;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .left-portal {
+        padding: 2em 0;
+    }
+
+    .right-portal {
+        padding: 2em 0;
+    }
+
+    .portal-circle {
+        height: 22em;
+        width: 22em;
+    }
+
+    .portal-circle a {
+        top: 1.5em;
+        left: 1.5em;
+        height: 19em;
+        width: 19em;
+    }
+
+    .portal-logo {
+        font-size: 4.1em;
+        top: 1.72em;
+    }
+}

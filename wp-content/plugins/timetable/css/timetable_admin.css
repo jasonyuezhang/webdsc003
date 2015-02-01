@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+/* ------------------ General styles ------------------ */
+#timetable-options-form table {
+	margin-bottom: 40px;
+}
+#timetable-options-form tr {
+	border-top: 1px solid #ddd;
+}
+#timetable-options-form tr:first-child {
+	border: none;
+}
+.hour-form-table td {
+	border: none;
+}
+.wp-list-table,
+.timetable-item-table {
+	margin-top: 10px;
+}
+
+/* ------------------ Color pickers ------------------ */
+.colorpicker-preview {
+	display: inline-block;
+  margin-left: 10px;
+	width: 20px;
+	-webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+/* ------------------ Schedule Admin View ------------------ */
+/* Entry form */
+#schedule-entry-form {
+	width: 460px;
+}
+.timetable-label-column {
+	width: 120px;
+}
+
+/* Schedule table */
+#schedule-entries-table.timezone {
+	width: 99%
+}
+/* With Timezone */
+th.timetable-class-column {
+  width: 15%;
+}
+th.timetable-instructor-column {
+  width: 15%;
+}
+th.timetable-classroom-column {
+  width: 14%;
+}
+th.timetable-start-hour-column {
+  width: 8%;
+}
+th.timetable-end-hour-column {
+  width: 7%;
+}
+th.timetable-timezone-column {
+  width: 16%;
+}
+th.timetable-status-column {
+  width: 5%;
+}
+th.timetable-notes-column {
+  width: 16%;
+}
+th.timetable-edit-column {
+  width: 4%;
+}
+/* Without Timezone */
+.no-timezone th.timetable-class-column {
+  width: 17%;
+}
+.no-timezone th.timetable-instructor-column {
+  width: 17%;
+}
+.no-timezone th.timetable-classroom-column {
+  width: 16%;
+}
+.no-timezone th.timetable-start-hour-column {
+  width: 8%;
+}
+.no-timezone th.timetable-end-hour-column {
+  width: 7%;
+}
+.no-timezone th.timetable-status-column {
+  width: 5%;
+}
+.no-timezone th.timetable-notes-column {
+  width: 27%;
+}
+.no-timezone th.timetable-edit-column {
+  width: 3%;
+}
+
+/* ------------------ Item Admin View ------------------ */
+.timetable-item-table {
+	width: 99%;
+}
+.timetable-name-column {
+	width: 20%
+}

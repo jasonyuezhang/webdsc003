@@ -1,0 +1,11 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 .
+drwxrwxrwx   12 Iusr_11895 inetuser         4096 May 25 14:21 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser          453 Jul 27 17:15 TimetableClass.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          469 Jul 27 17:15 TimetableClassroom.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         3167 Jul 27 17:15 TimetableIOS.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          472 Jul 27 17:15 TimetableInstructor.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         3987 Jul 27 17:15 TimetableItemForm.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        20458 Jul 27 17:15 TimetableSchedule.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         7817 Jul 27 17:15 TimetableScheduleForm.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         2181 Jul 27 17:15 TimetableStyle.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5007 Jul 27 17:15 TimetableTodayClassesWidget.php

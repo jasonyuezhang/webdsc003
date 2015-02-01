@@ -1,0 +1,8 @@
+drwx---r-x    3 Iusr_11895 inetuser         4096 Sep 20 19:12 .
+drwx---r-x   11 Iusr_11895 inetuser         4096 Sep 20 19:12 ..
+-rw----r--    1 Iusr_11895 inetuser        12655 Sep 20 19:12 handlers.js
+-rw----r--    1 Iusr_11895 inetuser         8867 Sep 20 19:12 handlers.min.js
+-rw----r--    1 Iusr_11895 inetuser         1540 Sep 20 19:12 license.txt
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 plugins
+-rw----r--    1 Iusr_11895 inetuser        37691 Sep 20 19:12 swfupload.js
+-rw----r--    1 Iusr_11895 inetuser        13133 Sep 20 19:12 swfupload.swf

@@ -1,0 +1,4 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 15:10 .
+drwxrwxrwx   22 Iusr_11895 inetuser         4096 Sep 16 13:16 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser        28791 Sep 16 13:16 plugin.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        13716 Sep 16 13:16 plugin.min.js

@@ -1,0 +1,41 @@
+humans.txt - we are the humans behind code programming | sLaNGjIs Support Team
+
+/* TEAM */
+
+	Nam:         sLaNGjIs
+	Site:        slangjis.com
+	Profile:     gravatar.com/slangjis
+	Title:       Web Developer and Designer
+
+	About:       slangji.wordpress.com/about
+	Blog:        slangji.wordpress.com/blog
+	Contact:     slangji.wordpress.com/contact
+	Donation:    slangji.wordpress.com/donate
+	Plugins:     slangji.wordpress.com/plugins
+	Themes:      slangji.wordpress.com/themes
+
+	Github:      github.com/slangji
+	Softpedia:   webscripts.softpedia.com/author/sLa-1869786722.html
+	WordPress:   profiles.wordpress.org/slangji
+
+	Linkedin:    www.linkedin.com/in/slangjis
+	Twitter:     @slangjis #slangjis
+	FeedBurner:  feeds.feedburner.com/slangjis
+	Friendfeed:  friendfeed.com/slangjis
+
+	ChatRooms:   No Thanks!
+	Facebook:    No Thanks!
+	Flickr:      No Thanks!
+	Google+Plus: No Thanks!
+	Instagram:   No Thanks!
+	Messengers:  No Thanks!
+	Skype:       No Thanks!
+	Vimeo:       No Thanks!
+	WhatsApp:    No Thanks!
+
+/* META */
+
+	Built with: bbPress, BuddyPress, phpBB, WordPress
+	            CSS, CSS3, HTML, HTML5, PHP, XHTML, XHTML5 
+	            Ajax, HyperDB, JavaScript, jQuery, MySQL
+	            FileZilla, NotePad++, TortoiseSVN, WaterFox

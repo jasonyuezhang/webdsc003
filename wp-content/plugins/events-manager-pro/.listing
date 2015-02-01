@@ -1,0 +1,13 @@
+drwx---r-x    6 Iusr_11895 inetuser         4096 Jul 27 17:10 .
+drwxrwxrwx   17 Iusr_11895 inetuser         4096 Oct 14 23:31 ..
+drwx---r-x    7 Iusr_11895 inetuser         4096 Jul 27 17:09 add-ons
+-rw----r--    1 Iusr_11895 inetuser         1491 Jul 27 17:09 emp-admin.php
+-rw----r--    1 Iusr_11895 inetuser        67541 Jul 27 17:09 emp-forms.php
+-rw----r--    1 Iusr_11895 inetuser        18150 Jul 27 17:09 emp-install.php
+-rw----r--    1 Iusr_11895 inetuser         1314 Jul 27 17:09 emp-logs.php
+-rw----r--    1 Iusr_11895 inetuser         9681 Jul 27 17:09 emp-updates.php
+-rw----r--    1 Iusr_11895 inetuser        24586 Jul 27 17:09 events-manager-pro.php
+drwx---r-x    5 Iusr_11895 inetuser         4096 Jul 27 17:09 includes
+drwx---r-x    2 Iusr_11895 inetuser         4096 Jul 27 17:10 langs
+-rw----r--    1 Iusr_11895 inetuser        22287 Jul 27 17:10 readme.txt
+drwx---r-x    4 Iusr_11895 inetuser         4096 Jul 27 17:10 templates

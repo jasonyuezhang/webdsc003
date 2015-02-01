@@ -1,0 +1,13 @@
+drwxrwxrwx    7 Iusr_11895 inetuser         4096 May 25 15:10 .
+drwxrwxrwx   11 Iusr_11895 inetuser         4096 Sep 16 13:16 ..
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 15:10 langs
+-rwxrwxrwx    1 Iusr_11895 inetuser        26427 Jul 27 18:13 license.txt
+drwxrwxrwx   22 Iusr_11895 inetuser         4096 Sep 16 13:16 plugins
+drwxrwxrwx    4 Iusr_11895 inetuser         4096 May 25 15:10 skins
+drwxrwxrwx    3 Iusr_11895 inetuser         4096 May 25 15:10 themes
+-rwxrwxrwx    1 Iusr_11895 inetuser        14965 Jul 27 18:14 tiny_mce_popup.js
+-rwxrwxrwx    1 Iusr_11895 inetuser       301201 Sep 16 13:16 tinymce.min.js
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 15:10 utils
+-rwxrwxrwx    1 Iusr_11895 inetuser         4899 Sep 16 13:16 wp-mce-help.php
+-rwxrwxrwx    1 Iusr_11895 inetuser       134666 Sep 16 13:16 wp-tinymce.js.gz
+-rwxrwxrwx    1 Iusr_11895 inetuser         1128 Sep 16 13:16 wp-tinymce.php

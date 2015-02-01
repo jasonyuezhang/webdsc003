@@ -1,0 +1,5 @@
+drwx---r-x    3 Iusr_11895 inetuser         4096 Sep 20 19:13 .
+drwx---r-x   22 Iusr_11895 inetuser         4096 Sep 20 19:13 ..
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:13 css
+-rw----r--    1 Iusr_11895 inetuser         8259 Sep 20 19:13 plugin.js
+-rw----r--    1 Iusr_11895 inetuser         3987 Sep 20 19:13 plugin.min.js

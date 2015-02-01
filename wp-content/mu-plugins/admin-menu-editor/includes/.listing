@@ -1,0 +1,13 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:52 .
+drwxrwxrwx    6 Iusr_11895 inetuser         4096 May 25 13:52 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser         3848 May 25 16:23 access-editor-dialog.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5953 May 25 16:23 auto-versioning.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         3922 May 25 16:23 consistency-check.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        17404 May 25 16:23 editor-page.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        88443 May 25 16:23 menu-editor-core.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        16786 May 25 16:23 menu-item.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         6543 May 25 16:23 menu.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1904 May 25 16:23 role-utils.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         7517 May 25 16:23 settings-page.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        11309 May 25 16:23 shadow_plugin_framework.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          903 May 25 16:23 version-conflict-check.php

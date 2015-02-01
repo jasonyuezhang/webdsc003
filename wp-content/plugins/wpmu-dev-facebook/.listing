@@ -1,0 +1,10 @@
+drwx---r-x    7 Iusr_11895 inetuser         4096 Sep 25 18:32 .
+drwxrwxrwx   17 Iusr_11895 inetuser         4096 Oct 14 23:31 ..
+-rw----r--    1 Iusr_11895 inetuser        14477 Aug  1 10:09 changelog.txt
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 25 18:32 css
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 25 18:32 img
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 25 18:32 js
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 25 18:32 languages
+drwx---r-x    4 Iusr_11895 inetuser         4096 Sep 25 18:33 lib
+-rw----r--    1 Iusr_11895 inetuser        15148 Aug  1 10:09 license.txt
+-rw----r--    1 Iusr_11895 inetuser        10702 Aug  1 10:09 wpmu-dev-facebook.php

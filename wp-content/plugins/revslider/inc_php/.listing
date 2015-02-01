@@ -1,0 +1,12 @@
+drwxrwxrwx    3 Iusr_11895 inetuser         4096 May 25 20:59 .
+drwxrwxrwx   13 Iusr_11895 inetuser         4096 Aug 13 17:27 ..
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 21:06 framework
+-rwxrwxrwx    1 Iusr_11895 inetuser         1720 Jul 27 17:12 revslider_globals.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        42363 Jul 27 17:12 revslider_operations.class.php
+-rw----r--    1 Iusr_11895 inetuser        54259 Jul 27 17:13 revslider_output.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1263 Jul 27 17:13 revslider_params.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        14503 Jul 27 17:13 revslider_settings_product.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        32559 Jul 27 17:13 revslider_slide.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        57996 Jul 27 17:13 revslider_slider.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1550 Jul 27 17:13 revslider_tinybox.class.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4395 Jul 27 17:13 revslider_widget.class.php

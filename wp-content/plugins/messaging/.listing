@@ -1,0 +1,8 @@
+drwxrwxrwx    6 Iusr_11895 inetuser         4096 May 25 14:19 .
+drwxrwxrwx   17 Iusr_11895 inetuser         4096 Oct 14 23:31 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser         2922 Jul 27 17:10 changelog.txt
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:56 js
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:56 languages
+drwxrwxrwx    3 Iusr_11895 inetuser         4096 May 25 14:19 lib
+-rwxrwxrwx    1 Iusr_11895 inetuser        79265 Jul 27 17:10 messaging.php
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:56 not-included

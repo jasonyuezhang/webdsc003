@@ -1,0 +1,17 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 14:21 .
+drwxrwxrwx    4 Iusr_11895 inetuser         4096 May 25 14:20 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser          523 Jul 27 17:14 dialog_preview_slide.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          518 Jul 27 17:14 dialog_preview_slider.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        53560 Jul 27 17:14 edit_layers.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         7805 Jul 27 17:15 slide.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5673 Jul 27 17:15 slider_api.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4573 Jul 27 17:15 slider_edit.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         3346 Jul 27 17:15 slider_new.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4573 Jul 27 17:15 slider_toolbox.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         6095 Jul 27 17:15 sliders.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4638 Jul 27 17:15 sliders_list.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         3820 Jul 27 17:15 slides.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4096 Jul 27 17:15 slides_gallery.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        10054 Jul 27 17:15 slides_list.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5700 Jul 27 17:15 slides_list_posts.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1894 Jul 27 17:15 slides_posts.php

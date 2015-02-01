@@ -1,0 +1,6 @@
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 .
+drwx---r-x    3 Iusr_11895 inetuser         4096 Sep 20 19:12 ..
+-rw----r--    1 Iusr_11895 inetuser         1572 Sep 20 19:12 swfupload.cookies.js
+-rw----r--    1 Iusr_11895 inetuser         3383 Sep 20 19:12 swfupload.queue.js
+-rw----r--    1 Iusr_11895 inetuser        12234 Sep 20 19:12 swfupload.speed.js
+-rw----r--    1 Iusr_11895 inetuser         3926 Sep 20 19:12 swfupload.swfobject.js

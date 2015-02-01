@@ -1,0 +1,6 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 15:10 .
+drwxrwxrwx    4 Iusr_11895 inetuser         4096 May 25 15:10 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser        15840 Jul 27 18:15 native.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5170 Jul 27 18:15 shell.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         8352 Jul 27 18:15 string.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         2210 Jul 27 18:15 xdiff.php

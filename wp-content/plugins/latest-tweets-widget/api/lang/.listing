@@ -1,0 +1,13 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 14:19 .
+drwxrwxrwx    6 Iusr_11895 inetuser         4096 May 25 14:19 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser          726 Jul 27 17:10 README.md
+-rwxrwxrwx    1 Iusr_11895 inetuser         3014 Jul 27 17:10 twitter-api-de_DE.mo
+-rwxrwxrwx    1 Iusr_11895 inetuser         5994 Jul 27 17:10 twitter-api-de_DE.po
+-rwxrwxrwx    1 Iusr_11895 inetuser         4669 Jul 27 17:10 twitter-api-nl_NL.mo
+-rwxrwxrwx    1 Iusr_11895 inetuser         6515 Jul 27 17:10 twitter-api-nl_NL.po
+-rwxrwxrwx    1 Iusr_11895 inetuser         4792 Jul 27 17:10 twitter-api-pt_BR.mo
+-rwxrwxrwx    1 Iusr_11895 inetuser         6640 Jul 27 17:10 twitter-api-pt_BR.po
+-rwxrwxrwx    1 Iusr_11895 inetuser         6197 Jul 27 17:10 twitter-api-ru_RU.mo
+-rwxrwxrwx    1 Iusr_11895 inetuser         8103 Jul 27 17:10 twitter-api-ru_RU.po
+-rwxrwxrwx    1 Iusr_11895 inetuser         4984 Jul 27 17:10 twitter-api.pot
+-rwxrwxrwx    1 Iusr_11895 inetuser          598 Jul 27 17:10 update.sh

@@ -1,0 +1,16 @@
+drwxrwxrwx   12 Iusr_11895 inetuser         4096 May 25 14:21 .
+drwxrwxrwx   17 Iusr_11895 inetuser         4096 Oct 14 23:31 ..
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:57 controllers
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:57 css
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:57 images
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 includes
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 ios
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 js
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 languages
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 models
+drwxrwxrwx    5 Iusr_11895 inetuser         4096 May 25 14:51 plugins
+-rwxrwxrwx    1 Iusr_11895 inetuser        78424 Jul 27 17:16 screenshot-1.png
+-rwxrwxrwx    1 Iusr_11895 inetuser       107950 Jul 27 17:16 screenshot-2.png
+-rwxrwxrwx    1 Iusr_11895 inetuser        42224 Jul 27 17:16 screenshot-3.png
+-rwxrwxrwx    1 Iusr_11895 inetuser         1561 Jul 27 17:16 timetable.php
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:58 views

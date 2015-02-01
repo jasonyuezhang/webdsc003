@@ -1,0 +1,11 @@
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 25 18:32 .
+drwx---r-x    7 Iusr_11895 inetuser         4096 Sep 25 18:32 ..
+-rw----r--    1 Iusr_11895 inetuser         1516 Aug  1 10:09 check_permissions.js
+-rw----r--    1 Iusr_11895 inetuser         5864 Aug  1 10:09 editor_album.js
+-rw----r--    1 Iusr_11895 inetuser          703 Aug  1 10:09 wdfb_connect_widget.js
+-rw----r--    1 Iusr_11895 inetuser         1300 Aug  1 10:09 wdfb_facebook_login.js
+-rw----r--    1 Iusr_11895 inetuser         1494 Aug  1 10:09 wdfb_groups_sync.js
+-rw----r--    1 Iusr_11895 inetuser         1657 Aug  1 10:09 wdfb_metabox.js
+-rw----r--    1 Iusr_11895 inetuser          670 Aug  1 10:09 wdfb_post_as_page.js
+-rw----r--    1 Iusr_11895 inetuser         1468 Aug  1 10:09 wdfb_widget_events.js
+-rw----r--    1 Iusr_11895 inetuser         4021 Aug  1 10:09 widget_editor_album.js

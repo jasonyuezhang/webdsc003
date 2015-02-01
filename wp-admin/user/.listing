@@ -1,0 +1,10 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 May 25 13:48 .
+drwxrwxrwx    9 Iusr_11895 inetuser         4096 May 25 13:48 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser          275 May 25 17:22 about.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          841 May 25 17:22 admin.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          279 May 25 17:22 credits.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          281 May 25 17:22 freedoms.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          222 May 25 17:22 index.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          700 May 25 17:22 menu.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          223 May 25 17:22 profile.php
+-rwxrwxrwx    1 Iusr_11895 inetuser          221 May 25 17:22 user-edit.php

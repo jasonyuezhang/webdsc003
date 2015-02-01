@@ -1,0 +1,16 @@
+WP Admin Bar Removal - TRUNK - Version 2014.0708.0383 (Build 2014-07-08) MD5 Checksum:
+
+index.htm                                             89A986ADE5F2DE5E82A862BFB9F8668B
+index.html                                            89A986ADE5F2DE5E82A862BFB9F8668B
+
+.htaccess                                             E36EDC4116658B93B750E5732B5D8FA4
+
+gpl-2.0.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                            C1509896B9059CDB6BA0A74F6F78CE74
+index.php                                             91CF7C943D4B47004CCE5098C63E28A5
+license.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
+readme.txt                                            BCC54EEC281B66BE1B2B276F96300D7A
+
+wp-admin-bar-removal.css                              9FE26649B1DC41D6CBD0B9CE63E40F5F
+wp-admin-bar-removal.js                               10A2BED0FFE284122C156E833BB88A45
+wp-admin-bar-removal.php                              08A8292D433CB8EF7ABCAF7C2D757611

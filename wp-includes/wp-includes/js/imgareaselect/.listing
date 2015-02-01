@@ -1,0 +1,7 @@
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 .
+drwx---r-x   11 Iusr_11895 inetuser         4096 Sep 20 19:12 ..
+-rw----r--    1 Iusr_11895 inetuser          178 Sep 20 19:12 border-anim-h.gif
+-rw----r--    1 Iusr_11895 inetuser          178 Sep 20 19:12 border-anim-v.gif
+-rw----r--    1 Iusr_11895 inetuser          790 Sep 20 19:12 imgareaselect.css
+-rw----r--    1 Iusr_11895 inetuser        37069 Sep 20 19:12 jquery.imgareaselect.js
+-rw----r--    1 Iusr_11895 inetuser        13881 Sep 20 19:12 jquery.imgareaselect.min.js

@@ -1,0 +1,13 @@
+drwx---r-x    7 Iusr_11895 inetuser         4096 Sep 20 19:13 .
+drwx---r-x   11 Iusr_11895 inetuser         4096 Sep 20 19:12 ..
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 langs
+-rw----r--    1 Iusr_11895 inetuser        26427 Sep 20 19:12 license.txt
+drwx---r-x   22 Iusr_11895 inetuser         4096 Sep 20 19:13 plugins
+drwx---r-x    4 Iusr_11895 inetuser         4096 Sep 20 19:13 skins
+drwx---r-x    3 Iusr_11895 inetuser         4096 Sep 20 19:13 themes
+-rw----r--    1 Iusr_11895 inetuser        14965 Sep 20 19:12 tiny_mce_popup.js
+-rw----r--    1 Iusr_11895 inetuser       301201 Sep 20 19:12 tinymce.min.js
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 utils
+-rw----r--    1 Iusr_11895 inetuser         4899 Sep 20 19:12 wp-mce-help.php
+-rw----r--    1 Iusr_11895 inetuser       134666 Sep 20 19:12 wp-tinymce.js.gz
+-rw----r--    1 Iusr_11895 inetuser         1128 Sep 20 19:12 wp-tinymce.php

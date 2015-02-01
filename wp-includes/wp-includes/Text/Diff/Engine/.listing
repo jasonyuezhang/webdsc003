@@ -1,0 +1,6 @@
+drwx---r-x    2 Iusr_11895 inetuser         4096 Sep 20 19:12 .
+drwx---r-x    4 Iusr_11895 inetuser         4096 Sep 20 19:12 ..
+-rw----r--    1 Iusr_11895 inetuser        15840 Sep 20 19:12 native.php
+-rw----r--    1 Iusr_11895 inetuser         5170 Sep 20 19:12 shell.php
+-rw----r--    1 Iusr_11895 inetuser         8352 Sep 20 19:12 string.php
+-rw----r--    1 Iusr_11895 inetuser         2210 Sep 20 19:12 xdiff.php
