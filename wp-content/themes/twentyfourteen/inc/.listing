@@ -1,0 +1,8 @@
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 Sep 16 13:18 .
+drwxrwxrwx    9 Iusr_11895 inetuser         4096 Sep 16 13:18 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser         2195 Sep 16 13:18 back-compat.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         4492 Sep 16 13:18 custom-header.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         5223 Sep 16 13:18 customizer.php
+-rwxrwxrwx    1 Iusr_11895 inetuser        15226 Sep 16 13:18 featured-content.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         6195 Sep 16 13:18 template-tags.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         9824 Sep 16 13:18 widgets.php

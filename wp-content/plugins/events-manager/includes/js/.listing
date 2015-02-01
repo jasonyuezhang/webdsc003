@@ -1,0 +1,9 @@
+drwxrwxrwx    4 Iusr_11895 inetuser         4096 Jul 28 00:34 .
+drwxrwxrwx    8 Iusr_11895 inetuser         4096 Jul 28 00:34 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser         4124 Jul 28 00:34 admin-settings.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         2692 Jul 28 00:34 bookingsform.js
+-rwxrwxrwx    1 Iusr_11895 inetuser         2311 Jul 28 00:34 categories-admin.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        49197 Jul 28 00:34 events-manager-source.js
+-rwxrwxrwx    1 Iusr_11895 inetuser        45571 Jul 28 00:34 events-manager.js
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 Jul 28 00:34 i18n
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 Jul 28 00:34 jquery-ui-1.8.5

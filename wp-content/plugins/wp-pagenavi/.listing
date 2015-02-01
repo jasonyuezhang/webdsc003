@@ -1,0 +1,10 @@
+drwxrwxrwx    4 Iusr_11895 inetuser         4096 Sep 16 13:17 .
+drwxrwxrwx   17 Iusr_11895 inetuser         4096 Oct 14 23:31 ..
+-rwxrwxrwx    1 Iusr_11895 inetuser         4769 Sep 16 13:17 admin.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         9071 Sep 16 13:17 core.php
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 Sep 16 13:17 lang
+-rwxrwxrwx    1 Iusr_11895 inetuser          374 Sep 16 13:17 pagenavi-css.css
+-rwxrwxrwx    1 Iusr_11895 inetuser         7260 Sep 16 13:17 readme.txt
+drwxrwxrwx    2 Iusr_11895 inetuser         4096 Sep 16 13:17 scb
+-rwxrwxrwx    1 Iusr_11895 inetuser          452 Sep 16 13:17 test.php
+-rwxrwxrwx    1 Iusr_11895 inetuser         1434 Sep 16 13:17 wp-pagenavi.php
