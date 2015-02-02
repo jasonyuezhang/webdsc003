@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+.ftpquota
+dbmaster
+error_log
+nbproject
+wp-content/cache/
+script
+googlemap
+README
+README.md
+license.txt
+readme.html
+star.png
+wp-config.php
