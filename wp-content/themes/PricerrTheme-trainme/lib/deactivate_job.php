@@ -50,8 +50,8 @@ $cat = wp_get_object_terms($pid, 'job_cat');
         <div class="padd10">
 
 
-            <div class="box-title"><?php echo sprintf(__("Deactivate Lesson - %s", 'PricerrTheme'), $title); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php echo sprintf(__("Deactivate Lesson - %s", 'PricerrTheme'), $title); ?></div>
+            <div class="box_content clear">
 
 
                 <?php

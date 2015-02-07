@@ -1116,7 +1116,7 @@ tbody th {
 
 }
 
-.box-title {
+.box_title {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -1126,7 +1126,7 @@ tbody th {
     border-bottom: 1px solid #e8e8e8
 }
 
-.box-title_special {
+.box_title_special {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -1136,7 +1136,7 @@ tbody th {
     border-bottom: 1px solid #c9c9c9
 }
 
-.box-title3 {
+.box_title3 {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
@@ -2009,7 +2009,7 @@ a:hover {
     text-decoration: underline
 }
 
-.box-content {
+.box_content {
     padding-top: 10px
 }
 

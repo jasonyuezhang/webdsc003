@@ -724,7 +724,7 @@ if (function_exists('bcn_display')) {
               </div>
               <div class="col-sm-9">
                 <div>
-                  <textarea rows="6" cols="40" class="do_input post-new-textarea" name="job_description" placeholder="<?php _e('Maximum 500 characters', 'PricerrTheme'); ?>"><?php echo empty($_POST['job_description']) ? trim(stripslashes($post->post_content)) : trim(stripslashes($_POST['job_description'])); ?></textarea>
+                  <textarea rows="6" cols="40" class="do_input post-new-textarea" name="job_description" placeholder="<?php _e('Maximum 500 characters', 'PricerrTheme'); ?>"><?php echo empty($_POST['job_description']) ? strip_tags(trim(stripslashes($post->post_content))) : trim(stripslashes($_POST['job_description'])); ?></textarea>
                 </div>
               </div>
             </div>

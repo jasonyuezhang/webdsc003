@@ -22,7 +22,7 @@ if (function_exists('bcn_display')) {
 ?>
 
     <div id="content">
-        <div class="box-title"><?php _e('Page Not Found', 'PricerrTheme'); ?></div>
+        <div class="box_title"><?php _e('Page Not Found', 'PricerrTheme'); ?></div>
         <div class="padd10">
             <?php _e('The requested page cannot be found. Maybe your lesson has not been approved yet.', 'PricerrTheme'); ?>
         </div>

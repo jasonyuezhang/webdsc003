@@ -53,8 +53,8 @@ function PricerrTheme_my_account_priv_mess_area_function()
         <div class="my_box3">
             <div class="padd10">
 
-                <div class="box-title"><?php _e("Latest Received Messages", "PricerrTheme"); ?></div>
-                <div class="box-content clear">
+                <div class="box_title"><?php _e("Latest Received Messages", "PricerrTheme"); ?></div>
+                <div class="box_content clear">
                     <?php
                     global $wpdb;
                     $s = "select * from " . $wpdb->prefix . "job_pm where user='$myuid' AND show_to_destination='1' order by id desc limit 4";
@@ -103,8 +103,8 @@ function PricerrTheme_my_account_priv_mess_area_function()
 
         <div class="my_box3">
             <div class="padd10">
-                <div class="box-title"><?php _e("Latest Sent Items", "PricerrTheme"); ?></div>
-                <div class="box-content clear">
+                <div class="box_title"><?php _e("Latest Sent Items", "PricerrTheme"); ?></div>
+                <div class="box_content clear">
                     <?php
                     global $wpdb;
                     $s = "select * from " . $wpdb->prefix . "job_pm where initiator='$myuid'  AND show_to_source='1' order by id desc limit 4";
@@ -160,8 +160,8 @@ function PricerrTheme_my_account_priv_mess_area_function()
         <div class="my_box3">
             <div class="padd10">
 
-                <div class="box-title"><?php _e("Inbox", "PricerrTheme"); ?></div>
-                <div class="box-content clear">
+                <div class="box_title"><?php _e("Inbox", "PricerrTheme"); ?></div>
+                <div class="box_content clear">
                     <?php
 
                     global $wpdb;
@@ -304,8 +304,8 @@ function PricerrTheme_my_account_priv_mess_area_function()
         <div class="my_box3">
             <div class="padd10">
 
-                <div class="box-title"><?php _e("Sent Items", "PricerrTheme"); ?></div>
-                <div class="box-content clear">
+                <div class="box_title"><?php _e("Sent Items", "PricerrTheme"); ?></div>
+                <div class="box_content clear">
                     <?php
 
                     global $wpdb;
@@ -455,10 +455,10 @@ function PricerrTheme_my_account_priv_mess_area_function()
         <div class="my_box3">
             <div class="padd10">
 
-                <div class="box-title"><?php _e("Read Message: ", "PricerrTheme");
+                <div class="box_title"><?php _e("Read Message: ", "PricerrTheme");
                     echo " " . $row->subject ?>
                 </div>
-                <div class="box-content clear">
+                <div class="box_content clear">
                     <?php
 
                     $mess = $row->content;
@@ -522,9 +522,9 @@ function PricerrTheme_my_account_priv_mess_area_function()
         <div class="my_box3">
             <div class="padd10">
 
-                <div class="box-title"><?php _e("Delete Message: ", "PricerrTheme");
+                <div class="box_title"><?php _e("Delete Message: ", "PricerrTheme");
                     echo " " . $row->subject ?></div>
-                <div class="box-content clear">
+                <div class="box_content clear">
                     <?php echo $row->content; ?>
                     <br/> <br/>
 
@@ -620,8 +620,8 @@ function PricerrTheme_my_account_priv_mess_area_function()
             <div class="my_box3">
                 <div class="padd10">
 
-                    <div class="box-title"><?php _e("Send Private Message to: ", "PricerrTheme"); ?> <?php echo $user->user_login; ?></div>
-                    <div class="box-content clear">
+                    <div class="box_title"><?php _e("Send Private Message to: ", "PricerrTheme"); ?> <?php echo $user->user_login; ?></div>
+                    <div class="box_content clear">
                         <form method="post"><input type="hidden" value="<?php echo current_time('timestamp', 0) ?>" name="tm_tm"/>
                             <table><?php if (empty($uid)):
                                     ?><tr>

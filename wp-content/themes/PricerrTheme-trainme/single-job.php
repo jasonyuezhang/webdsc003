@@ -63,7 +63,7 @@ if (have_posts()) {
     } else {
 
       $max_days = get_post_meta($pid, "max_days", true);
-      $prc = get_post_meta($pid, "price", true);
+      $prc = get_post_meta($pid, "job_cost", true);
       $featured = get_post_meta($pid, "featured", true);
       $views = get_post_meta($pid, "views", true);
       $views = $views + 1;
@@ -315,7 +315,7 @@ if (have_posts()) {
               'compare' => '='
             );
 
-            $args = array('author' => $uid, 'meta_query' => array($closed, $active), 'posts_per_page' => $nrpostsPage,
+            $args = array('author' => $author, 'meta_query' => array($closed, $active), 'posts_per_page' => $nrpostsPage,
               'paged' => 1, 'post_type' => 'job', 'order' => "DESC", 'orderby' => "date", 'post__not_in' => array($pid));
             $the_query = new WP_Query($args);
 

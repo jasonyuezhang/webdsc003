@@ -102,8 +102,8 @@ if (!function_exists('PricerrTheme_do_register_scr')) {
                     <div class="my_box3_login text-center">
                         <div class="padd10 white-wrapper">
                             <div class="register-form">
-                            <!--<div class="box-title"><?php _e("Register", $current_theme_locale_name); ?> - <?php echo get_bloginfo('name'); ?></div>-->
-                                <div class="box-content clear">
+                            <!--<div class="box_title"><?php _e("Register", $current_theme_locale_name); ?> - <?php echo get_bloginfo('name'); ?></div>-->
+                                <div class="box_content clear">
                                     <?php if (is_wp_error($errors) && isset($_POST['action'])) { ?>
                                         <div class="error">
                                             <ul>
@@ -182,7 +182,7 @@ if (!function_exists('PricerrTheme_do_register_scr')) {
                                             </div>
                                             <div class="register-group">
                                                 <!-- TODO: change hard coded link in a tag -->
-                                                <p class="agree-terms">By Clicking “Sign Up” below, you are agreeing to the Campus Lessons <a href="http://yuezhang.org/webdsc003/trainme/terms-conditions/">Terms and Conditions</a>.</p>
+                                                <p class="agree-terms">By Clicking “Sign Up” below, you are agreeing to the Campus Lessons' <a href="<?php get_bloginfo('siteurl') ?>/terms-of-use/">Terms and Conditions</a> and <a href="<?php get_bloginfo('siteurl') ?>/privacy-policy/">Privacy Policy</a>.</p>
                                             </div>
                                             <div class="register-group">
                                                 <!--<label for="submitbtn">&nbsp;</label>-->
@@ -211,8 +211,8 @@ if (!function_exists('PricerrTheme_do_register_scr')) {
                 <div class="clear10"></div>
                 <div class="my_box3">
                     <div class="padd10">
-                        <div class="box-title"><?php _e('Registration Disabled', $current_theme_locale_name) ?></div>
-                        <div class="box-content clear">
+                        <div class="box_title"><?php _e('Registration Disabled', $current_theme_locale_name) ?></div>
+                        <div class="box_content clear">
                             <p><?php _e('User registration is currently not allowed.', $current_theme_locale_name) ?>
                                 <br/>
                                 <a href="<?php echo get_settings('home'); ?>/" title="<?php _e('Go back to the blog', $current_theme_locale_name) ?>"><?php _e('Home', $current_theme_locale_name) ?></a>

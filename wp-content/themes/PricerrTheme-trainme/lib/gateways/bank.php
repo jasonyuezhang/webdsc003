@@ -190,8 +190,8 @@ get_header();
         <div class="my_box3">
             <div class="padd10">
 
-                <div class="box-title"><?php echo __("Purchase job, and pay by bank", 'PricerrTheme'); ?></div>
-                <div class="box-content clear">
+                <div class="box_title"><?php echo __("Purchase job, and pay by bank", 'PricerrTheme'); ?></div>
+                <div class="box_content clear">
 
                     <?php echo sprintf(__('You have can see the bank details below.', 'PricerrTheme')); ?>
                     <br/><br/>

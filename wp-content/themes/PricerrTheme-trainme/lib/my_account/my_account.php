@@ -53,7 +53,7 @@ if (!function_exists('PricerrTheme_my_account_area_function')) {
                     _e("Inactive", "PricerrTheme"); ?> : <?php
                     echo PricerrTheme_nr_inactive_jobs($uid); ?></div><div class="separator_my-account"></div><div class="font-my-account-info"><?php
                     _e("In Review", "PricerrTheme"); ?> : <?php
-                    echo PricerrTheme_nr_in_review_jobs($uid); ?></div></div></div><div class="box-content clear"><?php
+                    echo PricerrTheme_nr_in_review_jobs($uid); ?></div></div></div><div class="box_content clear"><?php
                 global $wp_query;
                 $query_vars = $wp_query->query_vars;
                 $post_per_page = 10;

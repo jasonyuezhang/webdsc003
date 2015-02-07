@@ -91,7 +91,7 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                 <div class="my_box3_login text-center">
                     <div class="padd10 white-wrapper">
                         <div class="content-wrapper-narrow">
-                            <div class="box-content clear">
+                            <div class="box_content clear">
                                 <div class="login-submit-form">
                                     <form name="lostpass" action="wp-login.php?action=retrievepassword" method="post" id="login-form">
                                         <div class="post-new-group">
@@ -104,16 +104,16 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                                         } ?>
                                         <input type="hidden" name="action" value="retrievepassword"/>
                                         <div class="post-new-group">
-                                          <div class="col-sm-4">
-                                            <div class="post-new-label">
-                                              <label><?php _e('Username or Email:', $current_theme_locale_name) ?></label>
+                                            <div class="col-sm-4">
+                                                <div class="post-new-label">
+                                                    <label><?php _e('Username or Email:', $current_theme_locale_name) ?></label>
+                                                </div>
                                             </div>
-                                          </div>
-                                          <div class="col-sm-8">
-                                            <div>
-                                              <input type="text" class="do_input post-new-textbox" name="user_login" id="user_login" value="" size="30" tabindex="1"/>
+                                            <div class="col-sm-8">
+                                                <div>
+                                                    <input type="text" class="do_input post-new-textbox" name="user_login" id="user_login" value="" size="30" tabindex="1"/>
+                                                </div>
                                             </div>
-                                          </div>
                                         </div>
                                         <?php do_action('lostpassword_form'); ?>
                                         <div class="lostpass-submit">
@@ -152,8 +152,8 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                     <div class="my_box3">
                         <div class="padd10">
 
-                            <div class="box-title"><?php _e("Retrieve Error", $current_theme_locale_name); ?></div>
-                            <div class="box-content clear">
+                            <div class="box_title"><?php _e("Retrieve Error", $current_theme_locale_name); ?></div>
+                            <div class="box_content clear">
 
                                 <br/><br/>
                                 <?php
@@ -219,23 +219,26 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                 echo '<div class="my_box3">
             	<div class="padd10">';
 
-                echo "<div id=\"login\">\n";
+                echo "          <div id=\"login\">\n";
                 // Generate something random for a password... md5'ing current time with a rand salt
                 $key = preg_replace('/a-z0-9/i', '', $_GET['key']);
                 if (empty($key)) {
-                  _e('<h1>Problem</h1><br />', $current_theme_locale_name);
-                  _e('Sorry, that key does not appear to be valid.', $current_theme_locale_name);
-                  echo "</div>\n";
-                  echo '</div></td></tr></table></div></div>';
-                  get_footer();
+                    _e('<h1>Problem</h1>', $current_theme_locale_name);
+                    _e('Sorry, that key does not appear to be valid.', $current_theme_locale_name);
+                    echo "          </div>\n";
 
-                  die();
+                    echo '</div></td></tr></table></div></div>';
+                    get_footer();
+
+                    die();
                 }
                 $user = $wpdb->get_row("SELECT * FROM $wpdb->users WHERE user_activation_key = '$key'");
                 if (!$user) {
-                    _e('<h1>Problem</h1><br />', $current_theme_locale_name);
+                    _e('<h1>Problem</h1>', $current_theme_locale_name);
                     _e('Sorry, that key does not appear to be valid.', $current_theme_locale_name);
-                    echo "</div>\n";
+                    echo "          </div>\n";
+
+
                     echo '</div></div>';
                     get_footer();
 
@@ -255,26 +258,22 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                 $m = wp_mail($user->user_email, sprintf(__('[%s] Your new password', $current_theme_locale_name), get_settings('blogname')), $message);
 
                 if ($m == false) {
-                  echo __('<h1>Problem</h1>', $current_theme_locale_name);
-                  echo '<br />';
-                  echo '<p>' . __('The e-mail could not be sent.', $current_theme_locale_name) . "<br />\n";
-                  echo '<br />';
-                  echo __('Possible reason: your host may have disabled the mail() function...', $current_theme_locale_name) . '</p>';
+                    echo __('<h1>Problem</h1>', $current_theme_locale_name);
+                    echo '<p>' . __('The e-mail could not be sent.', $current_theme_locale_name) . "<br />\n";
+                    echo __('Possible reason: your host may have disabled the mail() function...', $current_theme_locale_name) . '</p>';
                 } else {
-                  echo __('<h1>Success!</h1>', $current_theme_locale_name);
-                  echo '<br />';
-                  echo '<p>' . sprintf(__('Your new password is in the mail.', $current_theme_locale_name), $user_login) . '<br />';
-                  echo '<br />';
-                  echo "<a href='wp-login.php' title='" . __('Check your e-mail first, of course', $current_theme_locale_name) . "'>" .
-                      __('Click here to login!', $current_theme_locale_name) . '</a></p>';
-                  // send a copy of password change notification to the admin
-                  $message = sprintf(__('Password Lost and Changed for user: %s', $current_theme_locale_name), $user->user_login) . "\r\n";
-                  wp_mail(get_settings('admin_email'), sprintf(__('[%s] Password Lost/Change', $current_theme_locale_name), get_settings('blogname')), $message);
+                    echo __('<h1>Success!</h1>', $current_theme_locale_name);
+                    echo '<p>' . sprintf(__('Your new password is in the mail.', $current_theme_locale_name), $user_login) . '<br />';
+                    echo "<a href='wp-login.php' title='" . __('Check your e-mail first, of course', $current_theme_locale_name) . "'>" .
+                        __('Click here to login!', $current_theme_locale_name) . '</a></p>';
+                    // send a copy of password change notification to the admin
+                    $message = sprintf(__('Password Lost and Changed for user: %s', $current_theme_locale_name), $user->user_login) . "\r\n";
+                    wp_mail(get_settings('admin_email'), sprintf(__('[%s] Password Lost/Change', $current_theme_locale_name), get_settings('blogname')), $message);
                 }
-                echo "</div>\n";
+                echo "          </div>\n";
 
 
-                echo '</div></div>';
+                echo '</div></div></div>';
                 get_footer();
 
 
@@ -357,8 +356,8 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                     <div class="my_box3_login text-center">
                         <div class="padd10 white-wrapper">
                             <div class="login-form">
-                                <!--<div class="box-title"><?php _e("Login", $current_theme_locale_name); ?> - <?php echo get_bloginfo('name'); ?></div>-->
-                                <div class="box-content clear">
+                                <!--<div class="box_title"><?php _e("Login", $current_theme_locale_name); ?> - <?php echo get_bloginfo('name'); ?></div>-->
+                                <div class="box_content clear">
 
                                     <?php
                                     if (isset($_GET['checkemail']) && $_GET['checkemail'] == "confirm"):
@@ -373,9 +372,9 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                                     endif;
                                     if (!empty($error)) : ?>
                                         <div class="error">
-                                            <div>
-                                                <?php echo $error; ?>
-                                            </div>
+                                            <ul>
+                                                <?php echo "<li>$error</li>"; ?>
+                                            </ul>
                                         </div>
                                     <?php endif; ?>
                                     <div class="login-submit-form">

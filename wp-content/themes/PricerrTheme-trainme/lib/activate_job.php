@@ -48,8 +48,8 @@ $cat = wp_get_object_terms($pid, 'job_cat');
 
     <div id="content-side-bar">
         <div class="padd10">
-            <div class="box-title"><?php echo sprintf(__("Activate Lesson - %s", 'PricerrTheme'), $title); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php echo sprintf(__("Activate Lesson - %s", 'PricerrTheme'), $title); ?></div>
+            <div class="box_content clear">
                 <?php
 
                 if (isset($_POST['are_you_sure2'])) {

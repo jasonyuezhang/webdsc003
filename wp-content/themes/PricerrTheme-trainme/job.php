@@ -226,8 +226,8 @@ if (function_exists('bcn_display')) {
             </div>
             <!--<div class="clear10"></div>-->
             <!-- ####################### -->
-            <div class="box-title"><?php echo __("Lesson Videos", 'PricerrTheme'); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php echo __("Lesson Videos", 'PricerrTheme'); ?></div>
+            <div class="box_content clear">
             <?php
             // stugg here
             $vid = 0;
@@ -258,8 +258,8 @@ if (function_exists('bcn_display')) {
             }?>
             </div>
             <div class="clear10"></div>
-            <div class="box-title"><?php echo __("Latest Feedback", 'PricerrTheme'); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php echo __("Latest Feedback", 'PricerrTheme'); ?></div>
+            <div class="box_content clear">
             <?php
             global $current_user;
             get_currentuserinfo();
@@ -315,8 +315,8 @@ if (function_exists('bcn_display')) {
         ?>
         <div class="clear10"></div>
         <div style="float:left;width:45%">
-            <div class="box-title"><?php echo sprintf(__("Other lessons by %s", 'PricerrTheme'), $author->user_login); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php echo sprintf(__("Other lessons by %s", 'PricerrTheme'), $author->user_login); ?></div>
+            <div class="box_content clear">
                 <?php
                 $nrpostsPage = 8;
                 $active = array(
@@ -366,8 +366,8 @@ if (function_exists('bcn_display')) {
         <!-- ####################### -->
 
         <div style="float:right;width:45%">
-            <div class="box-title"><?php _e("Related lessons", 'PricerrTheme'); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php _e("Related lessons", 'PricerrTheme'); ?></div>
+            <div class="box_content clear">
                 <?php
                 $cat = wp_get_object_terms($pid, 'job_cat');
                 $job_cat = array(

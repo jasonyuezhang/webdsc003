@@ -5,8 +5,8 @@ if (!function_exists('PricerrTheme_all_locs_area_function')) {
     { ?><div id="content">
             <div class="my_box3">
                 <div class="padd10">
-                    <div class="box-title"><?php echo __("All Locations", 'PricerrTheme'); ?></div>
-                    <div class="box-content clear"><?php
+                    <div class="box_title"><?php echo __("All Locations", 'PricerrTheme'); ?></div>
+                    <div class="box_content clear"><?php
                         $opt = get_option('PricerrTheme_show_tax_views');
                         if ($opt == "no") $show_me_count = false;
                         else $show_me_count = true;

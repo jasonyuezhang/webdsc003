@@ -18,8 +18,8 @@ function PricerrTheme_blog_posts_area_function()
     <div id="content">
         <div class="my_box3">
             <div class="padd10">
-                <div class="box-title"><?php echo __("All Blog Posts", 'PricerrTheme'); ?></div>
-                <div class="box-content clear">
+                <div class="box_title"><?php echo __("All Blog Posts", 'PricerrTheme'); ?></div>
+                <div class="box_content clear">
 
                     <?php
 

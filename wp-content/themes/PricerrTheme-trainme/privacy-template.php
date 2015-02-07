@@ -25,7 +25,7 @@ if (function_exists('bcn_display')) {
 
 if (have_posts()): while (have_posts()) : the_post(); ?>
   <div id="content">
-    <div class="box-title"><?php the_title(); ?></div>
+    <div class="box_title"><?php the_title(); ?></div>
     <style>
       <!--
       /* Font Definitions */
@@ -155,16 +155,16 @@ information. <o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
 mso-bidi-font-family:Arial'>If you do not agree with the terms of this policy
-or CampuslessonsÕ <u><span style='color:#1F497D'>Terms of Use</span></u>,
+or Campuslessons' <u><a href="<?php bloginfo('siteurl'); ?>/terms-of-use/"><span style='color:black'>Terms of Use</span></a></u>,
 please do not provide us with personal information and you should immediately
-exit this Website and discontinue using the site. The <u><span
-            style='color:#1F497D'>Terms of Use </span></u>of this site are expressly
+exit this Website and discontinue using the site. The <u><a href="<?php bloginfo('siteurl'); ?>/terms-of-use/"><span
+            style='color:black'>Terms of Use </span></a></u>of this site are expressly
 incorporated herein by reference and made a part of this policy. <o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
 mso-bidi-font-family:Arial'>By using the Website, you signify that you agree to
-the terms of this privacy policy as well as to our <u><span style='color:#1F497D'>Terms
-of Use</span></u>.<o:p></o:p></span></p>
+the terms of this privacy policy as well as to our <u><a href="<?php bloginfo('siteurl'); ?>/terms-of-use/"><span style='color:black'>Terms
+of Use</span></a></u>.<o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><b style='mso-bidi-font-weight:
 normal'><span style='font-size:11.0pt;mso-bidi-font-family:Arial'>NOTIFICATION
@@ -193,7 +193,7 @@ APPLICABLE TO ONLINE ACTIVITIES ONLY<o:p></o:p></span></strong></p>
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
 mso-bidi-font-family:Arial'>The privacy policy does not extend to anything that
 is inherent in the operation of the Internet, and therefore beyond
-CampuslessonsÕs control, and is not to be applied in any manner contrary to
+Campuslessons's control, and is not to be applied in any manner contrary to
 applicable law or governmental regulation. This online privacy policy only
 applies to information collected through this site. This privacy policy does
 not apply to any information we may collect from you in any place other than
@@ -225,7 +225,7 @@ mso-bidi-font-family:Arial'>After the first two months of service, you may
 elect to transact with other members for services. At that point, you will be
 charged a fee payable by credit card. Those fees will be collected through
 Campuslessons and processed by PayPal. All payments and payment information,
-such as credit card number, will be directed to PayPalÕs website and will be
+such as credit card number, will be directed to PayPal's website and will be
 conducted through PayPal. PayPal is limited to only process payments for
 Campuslessons and is no way affiliated with Campuslessons, its parent company
 or any of its affiliates. PayPal processing is subject to the PayPal </span><a
@@ -234,7 +234,7 @@ or any of its affiliates. PayPal processing is subject to the PayPal </span><a
 mso-bidi-font-family:Arial'>. Users should view the PayPal </span><a
         href="https://www.paypal.com/us/webapps/mpp/ua/useragreement-full"><span
           style='font-size:11.0pt'>Privacy Policy</span></a><span style='font-size:11.0pt;
-mso-bidi-font-family:Arial'> to understand payment processing and PayPalÕs
+mso-bidi-font-family:Arial'> to understand payment processing and PayPal's
 protection against fraud.<span style="mso-spacerun:yes">&nbsp;&nbsp; </span><o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
@@ -325,7 +325,7 @@ or her visit may be used as indicated in this policy. <o:p></o:p></span></p>
 mso-bidi-font-family:Arial'>Campuslessons is committed to protecting the
 privacy of children and has no intention of collecting personal data from
 children under the age of 16. We encourage parents and guardians of children
-under 16 to regularly check and monitor their childrenÕs use of e-mail and
+under 16 to regularly check and monitor their children's use of e-mail and
 other activities online.<o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><b style='mso-bidi-font-weight:
@@ -335,9 +335,9 @@ Concerning Children<o:p></o:p></span></strong></p>
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
 mso-bidi-font-family:Arial'>We are a general audience site, and do not direct
 any of our content specifically at children under 13 years of age. We
-understand and are committed to respecting the sensitive nature of childrenÕs
+understand and are committed to respecting the sensitive nature of children's
 privacy online. If we learn or have reason to suspect that a site user is under
-age 13, we will promptly delete any personal information in that userÕs
+age 13, we will promptly delete any personal information in that user's
 account.<o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><b style='mso-bidi-font-weight:
@@ -348,10 +348,10 @@ normal'><span style='font-size:11.0pt;mso-bidi-font-family:Arial'>Sharing
 Information with Persons or Entities Who Manage This Website<o:p></o:p></span></strong></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
-mso-bidi-font-family:Arial'>CampuslessonsÕs global and local Websites and the
+mso-bidi-font-family:Arial'>Campuslessons's global and local Websites and the
 personal information and general information collected are managed and
-controlled by Amazon Web ServicesÕ Amazon Elastic Compute Cloud (Amazon EC2)
-using cloud based technology. The servers that make CampuslessonsÕs global and
+controlled by Amazon Web Services' Amazon Elastic Compute Cloud (Amazon EC2)
+using cloud based technology. The servers that make Campuslessons's global and
 local Websites available are located in a cloud based system. Please note that
 the information you provide will be transferred to Amazon EC2, and by
 submitting that information you authorize this transfer. <o:p></o:p></span></p>
@@ -376,7 +376,7 @@ transfer your personal information or general information to third parties
 without informing you in advance.<span style="mso-spacerun:yes">&nbsp;
 </span>If you do not want your information transferred to any third party, you
 may opt out by sending an email to <b style='mso-bidi-font-weight:normal'><span
-            style='color:black;mso-themecolor:text1'>:(campuslessons@gmail.com)</span></strong>.
+            style='mso-themecolor:text1'>:(campuslessons@gmail.com)</span></strong>.
 Please include "privacy" in the subject line. <o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><b style='mso-bidi-font-weight:
@@ -473,19 +473,19 @@ We encourage you promptly to update your personal information when it changes.<o
 '>If you choose to visit Campuslessons, your visit and any
 dispute over privacy is subject to this Policy and our<span
           class=apple-converted-space>&nbsp;</span></span><span style='mso-field-code:
-" HYPERLINK \0022https\:\/\/www\.amazon\.com\/gp\/browse\.html\/ref=hp_468496_conditions3?node=508088\0022 \\t \0022_blank\0022 "'><span
+" HYPERLINK \0022https\:\/\/www\.amazon\.com\/gp\/browse\.html\/ref=hp_468496_conditions3?node=508088\0022 \\t \0022_blank\0022 "'><a href="<?php bloginfo('siteurl'); ?>/terms-of-use/"><span
           class=MsoHyperlink><span style='font-size:11.0pt;mso-bidi-font-family:Arial;
-color:#1F497D;'>Terms of Use</span></span></span><span
+color:black;'>Terms of Use</span></a></span></span><span
         class=MsoHyperlink><span style='font-size:11.0pt;mso-bidi-font-family:Arial;
-color:#1F497D;'> </span></span><span style='font-size:11.0pt;
+color:black;'> </span></span><span style='font-size:11.0pt;
 mso-bidi-font-family:Arial;'>including limitations on damages,
 resolution of disputes, and application of the law of the state of California.
 If you have any concern about privacy at Campuslessons please contact us with a
 thorough description, and we will try to resolve it. If our business changes,
-our Privacy Policy and the<span class=apple-converted-space>&nbsp;</span></span><u><span
-          style='font-size:11.0pt;color:#1F497D'>Terms of Use</span></u><span
+our Privacy Policy and the<span class=apple-converted-space>&nbsp;</span></span><u><a href="<?php bloginfo('siteurl'); ?>/terms-of-use/"><span
+          style='font-size:11.0pt;color:black'>Terms of Use</span></a></u><span
         class=apple-converted-space><span style='font-size:11.0pt;mso-bidi-font-family:
-Arial;color:#1F497D;'> </span></span><span style='font-size:
+Arial;color:black;'> </span></span><span style='font-size:
 11.0pt;mso-bidi-font-family:Arial;'>may change also. We may
 e-mail periodic reminders of our policies and terms, but you should check
 Campuslessons frequently to see recent changes. Unless stated otherwise, our
@@ -505,16 +505,16 @@ COMMENTS<o:p></o:p></span></strong></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:11.0pt;
 mso-bidi-font-family:Arial'>If you have any questions or comments relating to
-our Website, the privacy policy, or <u><span style='color:#1F497D'>Terms of Use</span></u>
-send an e-mail <span style='color:black;mso-themecolor:text1'>to <b
-            style='mso-bidi-font-weight:normal'>[<i>campuslessons.com</i>]</strong></span><b
+our Website, the privacy policy, or <u><a href="<?php bloginfo('siteurl'); ?>/terms-of-use/"><span style='color:black'>Terms of Use</span></a></u>
+send an e-mail <span style='mso-themecolor:text1'>to <b
+            style='mso-bidi-font-weight:normal'><a href="mailto:support@campuslessons.com?subject=Hello%20Campus%20Lessons">support@campuslessons.com</a></strong></span><b
           style='mso-bidi-font-weight:normal'><span style='color:red'> </span></strong>or
 write Attn: Privacy Compliance Officer, <b style='mso-bidi-font-weight:normal'><span
-            style='color:black;mso-themecolor:text1'>[<i>9700 Gilman Dr. # 332, San Diego,
+            style='mso-themecolor:text1'>[<i>9700 Gilman Dr. # 332, San Diego,
               CA 92092]</i></span></strong></span><b style='mso-bidi-font-weight:normal'><span
-          style='font-size:11.0pt;font-family:"Times New Roman";color:black;mso-themecolor:
+          style='font-size:11.0pt;font-family:"Times New Roman";mso-themecolor:
 text1'>. </span></strong><span style='font-size:11.0pt;font-family:"Times New Roman";
-color:black;mso-themecolor:text1'><o:p></o:p></span></p>
+mso-themecolor:text1'><o:p></o:p></span></p>
 
     <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 

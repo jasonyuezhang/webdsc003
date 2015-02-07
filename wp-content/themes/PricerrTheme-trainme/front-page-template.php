@@ -15,9 +15,9 @@ get_header();
 <?php
 
 if ($sidebar) { ?>
-  <div id="inner-content">
+    <div id="inner-content">
 <?php } else { ?>
-  <div id="main" class="one">
+    <div id="main" class="one">
 <?php } ?>
 
 <!-- ADS HERE -->
@@ -39,28 +39,28 @@ if ($sidebar) { ?>
 <?php
 
 if (PricerrTheme_is_home()) {
-  $opt = get_option('PricerrTheme_show_stretch');
+    $opt = get_option('PricerrTheme_show_stretch');
 
-  if ($opt != "no") {
+    if ($opt != "no"):
 
-    echo '<div class="stretch-area"><div class="padd10"><ul class="xoxo">';
-    dynamic_sidebar('main-stretch-area');
-    echo '</ul></div></div>';
+        echo '<div class="stretch-area"><div class="padd10"><ul class="xoxo">';
+        dynamic_sidebar('main-stretch-area');
+        echo '</ul></div></div>';
 
-  }
+    endif;
 }
 
 $PricerrTheme_home_page_layout = get_option('PricerrTheme_home_page_layout');
 
-if ($PricerrTheme_home_page_layout == "3" or $PricerrTheme_home_page_layout == "4") {
+if ($PricerrTheme_home_page_layout == "3" or $PricerrTheme_home_page_layout == "4"):
 
-  echo '<div id="left-sidebar">';
-  echo '<ul class="xoxo">';
-  dynamic_sidebar('home-left-widget-area');
-  echo '</ul>';
-  echo '</div>';
+    echo '<div id="left-sidebar">';
+    echo '<ul class="xoxo">';
+    dynamic_sidebar('home-left-widget-area');
+    echo '</ul>';
+    echo '</div>';
 
-} ?>
+endif; ?>
 
     <div id="content" class="home-page-sidebar-main">
         <!-- ############################# -->
@@ -94,5 +94,5 @@ if ($PricerrTheme_home_page_layout == "2"):
 endif; ?>
 </div>
 <?php
-get_footer();
+	get_footer();
 ?>

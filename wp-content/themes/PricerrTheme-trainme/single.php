@@ -27,7 +27,7 @@ if (function_exists('bcn_display')) {
 
 if (have_posts()): while (have_posts()) : the_post(); ?>
     <div id="content">
-        <div class="box-title"><?php the_title(); ?></div>
+        <div class="box_title"><?php the_title(); ?></div>
 
         <?php the_content(); ?>
         <?php comments_template('', true); ?>

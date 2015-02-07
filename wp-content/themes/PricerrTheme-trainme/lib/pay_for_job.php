@@ -37,8 +37,8 @@ function PricerrTheme_pay_for_job_area_function()
     ?>
     <div id="content-side-bar" class="class680">
 
-        <div class="box-title"><?php echo sprintf(__('Pay for job: %s', 'PricerrTheme'), $jbnm); ?></div>
-        <div class="box-content clear">
+        <div class="box_title"><?php echo sprintf(__('Pay for job: %s', 'PricerrTheme'), $jbnm); ?></div>
+        <div class="box_content clear">
     <span class="skl_pay_feat">
     <?php echo sprintf(__('You are about to pay for the listing fees for your new job. <br/>The fee is <strong>%s</strong>. Please use the following payment methods.', 'PricerrTheme'), PricerrTheme_get_show_price($prc)); ?>
     </span><br/><br/>

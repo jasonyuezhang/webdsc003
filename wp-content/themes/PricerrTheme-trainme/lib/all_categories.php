@@ -5,7 +5,7 @@ if (!function_exists('PricerrTheme_all_cats_area_function')) {
         ?><div id="content">
             <div class="my_box3">
                 <div class="padd10">
-                    <div class="box-content clear">
+                    <div class="box_content clear">
                         <?php
 
                         $opt = get_option('PricerrTheme_show_tax_views');

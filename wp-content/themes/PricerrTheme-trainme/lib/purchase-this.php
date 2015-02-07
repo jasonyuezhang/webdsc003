@@ -39,8 +39,8 @@ $prc = get_post_meta($pid, "price", true);
 ?>
     <div id="content">
         <div class="padd10">
-            <div class="box-title"><?php echo __("Review and Choose Payment Method", 'PricerrTheme'); ?></div>
-            <div class="box-content clear">
+            <div class="box_title"><?php echo __("Review and Choose Payment Method", 'PricerrTheme'); ?></div>
+            <div class="box_content clear">
                 <?php do_action('PricerrTheme_before_message_purchase_gig_job'); ?>
 
                 <div class="order_total">
