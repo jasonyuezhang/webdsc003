@@ -87,7 +87,7 @@ if (!function_exists('PricerrTheme_my_account_cancel_reqq_area_function')) {
             <div class="my_box3">
                 <div class="padd10">
 
-                    <div class="box_title3"><?php printf(__("Answer Cancellation Request: #%s", 'PricerrTheme'), $oid); ?></div>
+                    <div class="box-title3"><?php printf(__("Answer Cancellation Request: #%s", 'PricerrTheme'), $oid); ?></div>
                     <div style="overflow:hidden; width:100%; float:left">
                         <div class="clear10"></div>
 

@@ -12,7 +12,7 @@ if (function_exists('bcn_display')) {
 
     <div id="content">
 
-        <div class="box_title">
+        <div class="box-title">
 
             <?php if (is_day()) : ?>
                 <?php printf(__('Daily Blog Archives: %s', 'PricerrTheme'), '<span>' . get_the_date() . '</span>'); ?>
@@ -27,7 +27,7 @@ if (function_exists('bcn_display')) {
             <?php endif; ?>
 
         </div>
-        <div class="box_content clear post-content">
+        <div class="box-content clear post-content">
             <?php if (have_posts()) while (have_posts()) : the_post(); ?>
 
                 <?php PricerrTheme_get_post_blog(); ?>

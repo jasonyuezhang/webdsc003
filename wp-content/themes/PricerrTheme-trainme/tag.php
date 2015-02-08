@@ -32,7 +32,7 @@ if (function_exists('bcn_display')) {
 
     <div id="content">
 
-        <div class="box_title"><?php
+        <div class="box-title"><?php
             if (empty($term_title)) echo __("All Posted Lessons", 'PricerrTheme');
             else echo sprintf(__("Latest Posted Lessons in %s", 'PricerrTheme'), $term_title);
             ?>

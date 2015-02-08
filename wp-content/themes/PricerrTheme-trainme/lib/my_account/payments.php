@@ -66,7 +66,7 @@ if (!function_exists('PricerrTheme_my_account_payments_area_function')) {
             $bal = PricerrTheme_get_credits($uid);
             echo '<h1 class="balance">' . sprintf(__("Your Current Balance is: %s", "PricerrTheme"), PricerrTheme_get_show_price($bal)) . "</h1>";
 
-            ?><div class="clear10"></div><div class="box_title"><?php _e('Pending Withdrawals', 'PricerrTheme'); ?></div><div class="padd10"><?php
+            ?><div class="clear10"></div><div class="box-title"><?php _e('Pending Withdrawals', 'PricerrTheme'); ?></div><div class="padd10"><?php
 
                 global $wpdb;
 
@@ -91,7 +91,7 @@ if (!function_exists('PricerrTheme_my_account_payments_area_function')) {
                 } ?>
             </div>
             <div class="clear10"></div>
-            <div class="box_title"><?php _e("Pending Incoming Payments", "PricerrTheme"); ?></div>
+            <div class="box-title"><?php _e("Pending Incoming Payments", "PricerrTheme"); ?></div>
             <div class="padd10">
 
                 <?php
@@ -135,7 +135,7 @@ if (!function_exists('PricerrTheme_my_account_payments_area_function')) {
 
             </div>
 
-            <div class="box_title"><?php _e("Transactions", "PricerrTheme"); ?></div>
+            <div class="box-title"><?php _e("Transactions", "PricerrTheme"); ?></div>
 
             <div class="padd10">
 
@@ -171,7 +171,7 @@ if (!function_exists('PricerrTheme_my_account_payments_area_function')) {
             </div>
 
         <?php } elseif ($pg == 'withdraw') { ?>
-            <div class="box_title"><?php _e("Request Withdrawal", "PricerrTheme"); ?></div>
+            <div class="box-title"><?php _e("Request Withdrawal", "PricerrTheme"); ?></div>
             <div class="padd10">
                 <?php
 

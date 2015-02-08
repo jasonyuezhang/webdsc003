@@ -54,7 +54,7 @@ if (!function_exists('PricerrTheme_my_account_reviews_area_function')) {
 
             ?>
 
-            <div class="box_content clear">
+            <div class="box-content clear">
                 <script>
                     jQuery(document).ready(function () {
                         /*--------------------------------------------------
@@ -149,7 +149,7 @@ if (!function_exists('PricerrTheme_my_account_reviews_area_function')) {
             </div>
 
         <?php elseif ($third_page == "waiting"): ?>
-            <div class="box_content clear">
+            <div class="box-content clear">
 
                 <?php
 
@@ -191,7 +191,7 @@ if (!function_exists('PricerrTheme_my_account_reviews_area_function')) {
             </div>
         <?php
         elseif ($third_page == "my_rev"): ?>
-            <div class="box_content clear">
+            <div class="box-content clear">
                 <?php
 
                 global $wpdb;

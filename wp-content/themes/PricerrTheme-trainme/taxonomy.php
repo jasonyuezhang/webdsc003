@@ -96,7 +96,7 @@ endif;
 
 ?>
 
-    <!--<div class="my_new_box_title"><?php
+    <!--<div class="my_new_box-title"><?php
         //if (empty($term_title)) echo __("All Posted Lessons", 'PricerrTheme');
         //else echo sprintf(__("Latest Posted Lessons in %s", 'PricerrTheme'), $term_title);
         ?>

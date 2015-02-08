@@ -186,7 +186,6 @@ if (!function_exists('theme_setup')) {
     get_template_part('nhp', 'options');
   }
 } // theme_setup
-
 require_once(TEMPLATEPATH . '/includes/flickr-widget/flickr-widget.php');
 
 require_once(TEMPLATEPATH . '/lib/widgets/about-us-widget.php');
@@ -823,51 +822,17 @@ function PricerrTheme_wp_nav_menu($args = array())
 
     if ($args->login) {
 
-        if (!is_user_logged_in()) {
-            $login_el = $sorted_menu_items[$last_parent_node];
-            $registration = $sorted_menu_items[$last_parent_node+1];
-            
-            $sub_menu = array();
-            foreach ($sorted_menu_items as $menu_item) {
-                if ($menu_item->menu_item_parent == $login_el->ID) {
-                    array_push($sub_menu, $menu_item->menu_order);
-                }
-            }
-            
-            foreach ($sub_menu as $sub_menu_id) {
-                if ($sub_menu_id != $registration->menu_order) {
-                    unset($sorted_menu_items[$sub_menu_id]);
-                }
-            }
-
-            $sorted_menu_items[$last_parent_node]->title = 'Log In';
-            $sorted_menu_items[$last_parent_node]->url = esc_url(wp_login_url());
-            $sorted_menu_items[$last_parent_node]->classes[] = 'menu-item-has-children';
-
-            $registration->title = 'Sign Up';
-            $registration->url = esc_url(wp_registration_url());
-
-            $key = array_search('menu-item-has-children', $sorted_menu_items[$last_parent_node]->classes);
-            unset($sorted_menu_items[$last_parent_node]->classes[$key]);
-
-            $_root_relative_current = untrailingslashit($_SERVER['REQUEST_URI']);
-            $current_url = set_url_scheme('http://' . $_SERVER['HTTP_HOST'] . $_root_relative_current);
-
-            if ($current_url == esc_url(wp_login_url())) {
-                $sorted_menu_items[$last_parent_node]->classes[] = 'current-menu-item';
-            } else if ($current_url == esc_url(wp_registration_url())) {
-                $sorted_menu_items[$last_parent_node+1]->classes[] = 'current-menu-item';
-            }
-        } else {
-
-            $logout = $sorted_menu_items[$counter+1];
-            $logout->menu_order = $sorted_menu_items[$counter] + 1;
-            $logout->menu_item_parent = $sorted_menu_items[$counter]->menu_item_parent;
-            $logout->title = 'Log Out';
-            $logout->url = esc_url(wp_logout_url());
-
-            array_push($sorted_menu_items, $logout);
+      if (!is_user_logged_in()) {
+        /*
+         * remove last item(My Account) and it's children items at header menu
+         */
+        foreach ($sorted_menu_items as $menu_item) {
+          if ( ($menu_item->menu_item_parent == $sorted_menu_items[$last_parent_node]->ID) ) {
+            unset($sorted_menu_items[$menu_item->menu_order]);
+          }
         }
+        unset($sorted_menu_items[$last_parent_node]);
+      }
     }
 
 
@@ -2255,10 +2220,10 @@ function PricerrTheme_get_post_thumbs_fnc()
 	else $img = get_bloginfo('template_url') . '/images/nopic.jpg'; */
 	
 	$img = PricerrTheme_get_avatar($uid, 175, 175);
-    
+	
 	?>
 
-	<div class="post_thumb white-wrapper">
+	<div class="post_thumb">
 
 		<?php if ($featured == "1"): ?>
 		<div class="feats1"></div>
@@ -2275,40 +2240,39 @@ function PricerrTheme_get_post_thumbs_fnc()
 		<div class="express1"></div>
 		<?php endif; ?>
 		
-		<div class="thumbnail-image">
+		<div class="thumbnail_image">
 			<a href="<?php the_permalink() ?>">
 				<img class="my_image" src="<?php echo $img ?>" width="155" height="115" alt="<?php the_title() ?>"/>
 			</a>
 		</div>
-        <div class="thumbnail-info">
-          <div class="user_ratings">
-            <div>
-              <?php echo PricerrTheme_show_rating_star_user($post->post_author) ?>
-            </div>
-          </div>
-          <div class="gridview_title">
-            <div>
-              <?php
+		<div class="user_ratings">
+			<div class="padd10_m">
+				<?php echo PricerrTheme_show_rating_star_user($post->post_author) ?>
+			</div>
+		</div>
+		<div class="gridview_title">
+			<div class="padd10_m">
+				<?php
 
-              $string_title = ucfirst(substr(get_the_title(), 0, 80));
+				$string_title = ucfirst(substr(get_the_title(), 0, 80));
 
-              echo '<a class="grid_view_url_thing" href="' . get_permalink() . '">';
-              echo sprintf(__('%s ... <br /><span class="no_bolds">Book me for %s</span>', 'PricerrTheme'), $string_title, $prc);
-              echo '</a>';
+				echo '<a class="grid_view_url_thing" href="' . get_permalink() . '">';
+				echo sprintf(__('%s ... <br /><span class="no_bolds">Book me for %s</span>', 'PricerrTheme'), $string_title, $prc);
+				echo '</a>';
 
-              ?>
-            </div>
-          </div>
-          <div class="user_and_flag">
-            <div>
-              <?php
-              $link_user = PricerrTheme_get_user_profile_link($userdata->user_login);
-              echo sprintf(__('Lesson Posted By: <br><div class="text-indent"><a href="%s" class="grid_view_url_thing1">%s</a></div>', 'PricerrTheme'), $link_user, $userdata->user_login);
-              echo sprintf(__('Post Time: <br><div class="text-indent">%s</div>', 'PricerrTheme'), get_the_time('F j, Y \a\t g:i A'));
-              ?>
-            </div>
-          </div>
-        </div>
+				?>
+			</div>
+		</div>
+		<div class="user_and_flag">
+			<div class="padd10_m">
+				<?php
+
+				$link_user = PricerrTheme_get_user_profile_link($userdata->user_login);
+				echo sprintf(__('Lesson Posted By: <a href="%s" class="grid_view_url_thing1">%s</a>', 'PricerrTheme'), $link_user, $userdata->user_login); ?>
+				&nbsp; &nbsp;  <?php echo $flag ?>
+
+			</div>
+		</div>
 	</div>
 
 <?php
@@ -2425,9 +2389,9 @@ if (!function_exists('PricerrTheme_get_post_fnc')) {
 			<div class="featured"></div>
 			<?php endif; ?>
 
-			<div class="padd0 white-wrapper">
+      <div class="padd0 white-wrapper">
 				<div class="image_holder">
-					<a href="<?php the_permalink(); ?>"><img width="190" height="135" class="<?php echo $img_class; ?>" src="<?php echo PricerrTheme_get_avatar($post->post_author, 190, 135); ?>"/></a>
+					<a href="<?php the_permalink(); ?>"><img width="102" height="72" class="<?php echo $img_class; ?>" src="<?php echo PricerrTheme_get_avatar($post->post_author, 102, 72); ?>"/></a>
 				</div>
 				<div class="title_holder">
 					<div class="ttl_holder_down">
@@ -2471,14 +2435,13 @@ if (!function_exists('PricerrTheme_get_post_fnc')) {
 					}
 
 					echo '<span class="inline">';
-					echo sprintf(__('<span class="spn_txt_diff">Lesson Posted By: </span><a href="%s" class="title_of_job2">%s</a>', 'PricerrTheme'), PricerrTheme_get_user_profile_link($usr->user_login), $usr->user_login);
+					echo sprintf(__('<span class="spn_txt_diff">Trainer</span>: <a href="%s" class="title_of_job2">%s</a>', 'PricerrTheme'), PricerrTheme_get_user_profile_link($usr->user_login), $usr->user_login);
 					echo '</span>';
-					echo '<br \>';
 					//echo '<span class="inline">';
 					//echo sprintf(__('<span class="spn_txt_diff">From</span>: %s', 'PricerrTheme'), $flag);
 					//echo '</span>';
 					echo '<span class="inline">';
-					echo sprintf(__('<span class="spn_txt_diff">Post Time: </span>%s', 'PricerrTheme'), get_the_time('F j, Y \a\t g:i A'));
+					echo sprintf(__('<span class="spn_txt_diff">Post Time</span>: %s', 'PricerrTheme'), get_the_time('F j, Y \a\t g:i A'));
 					echo '</span>';
 					//echo '<span class="inline">';
 					//echo sprintf(__('<span class="spn_txt_diff">Delivery</span>: %s', 'PricerrTheme'), $del);
@@ -4852,25 +4815,19 @@ function PricerrTheme_generate_thumb($img_url, $width, $height, $cut = true)
 
     $xxo = "-" . $width . "x" . $height;
     $exp = explode(".", $pic);
-	
-		$length = count($exp);
-		for($i=0;$i<count($exp)-1;$i++) {
-			if($i!=0) $new_name .= '.';
-			$new_name .= $exp[$i];
-		}
-	
-    $new_name = $new_name . $xxo . "." . $exp[count($exp)-1];
+    $new_name = $exp[0] . $xxo . "." . $exp[1];
 
     $tgh = str_replace("//", "/", $ba . $new_name);
-	
+
     if (file_exists($tgh)) return $iii . "/" . $new_name;
+
 
     $thumb = image_resize($img_url, $width, $height, $cut);
 
     if (is_wp_error($thumb)) return "is-wp-error";
 
     $exp = explode($basedir, $thumb);
-    return $uploads['baseurl'] . "/" . $exp[count($exp)-1];
+    return $uploads['baseurl'] . "/" . $exp[1];
 }
 
 /*************************************************************
@@ -5657,7 +5614,6 @@ function PricerrTheme_post_type_link_filter_function($post_link, $id = 0, $leave
 function PricerrTheme_get_avatar($uid, $w = 25, $h = 25)
 {
     $av = get_user_meta($uid, 'avatar', true);
-
     if (empty($av)) return get_bloginfo('template_url') . "/images/noav.jpg";
     else return PricerrTheme_generate_thumb($av, $w, $h);
 }
@@ -5686,8 +5642,7 @@ function PricerrTheme_register_new_user_sitemile($user_login, $user_password, $u
 
   // Check the e-mail address
   $eduMailPattern = '/^[^0-9][_a-z0-9-]+(\.[_a-z0-9-]+)*@([_a-z0-9-]+\.)*([_a-z0-9-])*\.edu$/';
-  $mailPattern = '/^[^0-9][_a-z0-9-]+(\.[_a-z0-9-]+)*@([_a-z0-9-]+\.)*([a-z0-9])*$/';
-	
+  
     if ($user_email == '') {
         $errors->add('empty_email', __('<strong>ERROR</strong>: Please type your e-mail address.', $current_theme_locale_name));
     } elseif (!is_email($user_email)) {
@@ -5695,7 +5650,7 @@ function PricerrTheme_register_new_user_sitemile($user_login, $user_password, $u
         $user_email = '';
     } elseif (email_exists($user_email)) {
         $errors->add('email_exists', __('<strong>ERROR</strong>: This email is already registered, please choose another one.', $current_theme_locale_name));
-    } elseif (!preg_match($mailPattern, $user_email)) {
+    } elseif (!preg_match($eduMailPattern, $user_email)) {
         $errors->add('email_exists', __('<strong>ERROR</strong>: Currently we only accept registrations with a valid ucsd or sdsu edu email, sorry.', $current_theme_locale_name));
     }
 
@@ -6364,17 +6319,21 @@ if (!function_exists('PricerrTheme_get_current_url')) {
  **************************************************************/
 if (!function_exists('PricerrTheme_is_login_page')) {
     function PricerrTheme_is_login_page() {
-        $result = stripos(PricerrTheme_get_current_url(), esc_url(wp_login_url()));
-        if ($result === false)
-            return 0;
-        else {
-	        $result2 = stripos(PricerrTheme_get_current_url(), 'action=lostpassword');
-	        if ( $result2 === false ) {
-		        return 99;
-	        } else {
-		        return 1;
-	        }
-        }
+
+      $result = stripos( PricerrTheme_get_current_url(), esc_url(wp_login_url()) );
+      $result2 = stripos( PricerrTheme_get_current_url(), '?action=register' );
+
+      if ( ($result === false) || ($result2 !== false) ) {
+        return 0;
+      } else {
+	      $result3 = stripos(PricerrTheme_get_current_url(), 'action=lostpassword');
+	      if ( $result3 === false ) {
+		      return 99;
+	      } else {
+		      return 1;
+	      }
+      }
+
     }
 }
 

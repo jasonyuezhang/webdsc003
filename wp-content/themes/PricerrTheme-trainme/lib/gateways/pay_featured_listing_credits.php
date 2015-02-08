@@ -35,8 +35,8 @@ $cr = PricerrTheme_get_show_price(PricerrTheme_get_credits($uid));
 
     <div id="content-side-bar">
 
-        <div class="box_title"><?php echo sprintf(__('Pay for job: %s', 'PricerrTheme'), $jbnm); ?></div>
-        <div class="box_content clear">
+        <div class="box-title"><?php echo sprintf(__('Pay for job: %s', 'PricerrTheme'), $jbnm); ?></div>
+        <div class="box-content clear">
 
             <?php
 

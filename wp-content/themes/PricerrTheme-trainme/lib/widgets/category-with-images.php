@@ -61,13 +61,7 @@ class PricerrTheme_browse_by_category_with_images extends WP_Widget
         if ($count > 0) {
 
             // echo '<style>#'.$widget_id.' .my_image_div_cat_name { width: '.round(100/$nr).'%}</style>';
-					$images = array(
-											'http://campuslessons.com/wp-content/uploads/sites/4/2014/05/book.png'
-											,'http://campuslessons.com/wp-content/uploads/sites/4/2014/05/basketball.png'
-											,'http://campuslessons.com/wp-content/uploads/sites/4/2014/09/recreation.png'
-											,'http://campuslessons.com/wp-content/uploads/sites/4/2014/05/bench-press.png'
-										);
-					
+
             echo '<ul class="grid row4 services">';
             foreach ($terms as $term) {
                 $PricerrTheme_get_cat_pic_attached = PricerrTheme_get_cat_pic_attached($term->term_id);
@@ -75,9 +69,6 @@ class PricerrTheme_browse_by_category_with_images extends WP_Widget
                 $image = PricerrTheme_generate_thumb3($PricerrTheme_get_cat_pic_attached, 'my_category_image_thing');
                 //$image = substr($image, 0, -11);
                 //$image = $image.".png";
-							
-								$image = array_pop($images);
-							
                 echo '<li><div><a href="' . $link . '">';
                 echo '<h2 class="title">'. $term->name. '</h2>';
                 echo '<img src="' . $image . '" width="' . $width . '" height="' . $height . '" />';

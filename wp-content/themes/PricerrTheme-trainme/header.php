@@ -288,6 +288,32 @@ if (!empty($Pricerr_main_how_it_works_img_img)) {
                         <img src="<?php echo $logo; ?>"/>
                     </a>
                 </div>
+                <div id="post-new-lesson">
+                    <span class="label">Post New Lesson</span>
+                    <a href="<?php echo PricerrTheme_post_new_link(); ?>"><span>+</span></a>
+                </div>
+                <div id="login-register">
+                    <ul>
+                        <?php if (is_user_logged_in()) { ?>
+                            <li>
+                                <div>
+                                    <a href="<?php echo esc_url(wp_logout_url()); ?>">Log Out</a>
+                                </div>
+                            </li>
+                        <?php } else { ?>
+                            <li>
+                                <div>
+                                    <a href="<?php echo esc_url(wp_login_url()); ?>" class="<?php echo ( PricerrTheme_is_login_page() )? 'current':'' ?>">Log In</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="<?php echo esc_url(wp_registration_url()); ?>" class="<?php echo ( PricerrTheme_is_registration_page() )? 'current':'' ?>">Sign Up</a>
+                                </div>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
                 <div id="primary-menu">
                     <?php
 

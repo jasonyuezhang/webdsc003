@@ -40,16 +40,16 @@ if (isset($_POST['submit_prepare_request'])) {
 
         ?>
 
-        <div class="box_title"><?php _e("Request not submitted", 'PricerrTheme'); ?></div>
-        <div class="box_content clear">
+        <div class="box-title"><?php _e("Request not submitted", 'PricerrTheme'); ?></div>
+        <div class="box-content clear">
             <?php
 
             _e("Your request has not been submitted for approval.<br/>Please make sure you input some words.", 'PricerrTheme');
 
             ?>
             <?php else: ?>
-            <div class="box_title"><?php _e("Request Submitted", 'PricerrTheme'); ?></div>
-            <div class="box_content">
+            <div class="box-title"><?php _e("Request Submitted", 'PricerrTheme'); ?></div>
+            <div class="box-content">
                 <?php
 
                 if ($PricerrTheme_admin_approve_request != "no"):

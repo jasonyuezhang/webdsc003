@@ -78,7 +78,7 @@ CSS overview:
 
 
 h1, h2, h3, h4, h5, h6 ul.products li.product h3,
-h1.title, h2.title, h3.title, h4.title, h5.title, h6.title, #primary-menu ul li a,
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title, #primary-menu ul li a, #login-register ul li div a,
 .section-title .title, .section-title .title a, .section-title h1.title span, .section-title p,
 #footer h3, .services h2, .item-info h3, .item-info-overlay h3,
 #contact-intro h1.title, #contact-intro p, .widget h3.title,
@@ -585,10 +585,79 @@ img, iframe {
 /*--------------------------------------------------
     PRIMARY MENU
 ---------------------------------------------------*/
-#primary-menu {
+#post-new-lesson {
+  background: #d94a39;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  display: block;
+  font-size: 48px;
   float: right;
-  margin: 0;
-  padding: 0;
+  line-height: 48px;
+  position: fixed;
+  right: 28px;
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  top: 26px;
+  height: 50px;
+  -moz-transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  -webkit-transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  -o-transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  width: 50px;
+  z-index: 1000;
+}
+
+#post-new-lesson .label {
+  border: .5px solid white;
+  border-radius: 0;
+  background: #2a2a2a;
+  color: white;
+  -moz-transition: opacity .2s ease;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  opacity: 0;
+  position: absolute;
+  top: -24px;
+  left: -30px;
+}
+
+#post-new-lesson .label.active {
+  -moz-transition: opacity .2s ease;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  opacity: 1;
+}
+
+#post-new-lesson:hover {
+  background: #e1636a;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 -1px 4px rgba(0, 0, 0, 0.25);
+  -moz-transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  -webkit-transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  -o-transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+  transition: background .2s ease, box-shadow .2s ease, text-shadow .2s ease;
+}
+
+#post-new-lesson a span {
+  color: white;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#primary-menu {
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 6%;
 }
 
 #primary-menu select {
@@ -624,9 +693,8 @@ img, iframe {
 #primary-menu ul li a {
   text-decoration: none;
   /*text-transform: uppercase;*/
-  /*font-size: 13px;*/
-  font-size: 18px;
-  color: black;
+  font-size: 17px;
+  color: #59a7e5;
   padding: 36px 20px;
   display: block;
   float: left;
@@ -634,10 +702,10 @@ img, iframe {
   font-weight: normal;
 }
 
-#primary-menu .menu > li:last-child > a {
-  color: #fff;
-  background-color: #7dafcd !important;
-}
+/*#primary-menu .menu > li:first-child > a {*/
+  /*color: #fff;*/
+  /*background-color: #7dafcd !important;*/
+/*}*/
 
 #primary-menu ul li a:hover, #primary-menu ul li.sfHover a {
   background-color: #35373A;
@@ -716,6 +784,72 @@ img, iframe {
 }
 
 #primary-menu ul li:hover ul li a:hover {
+  color: #fff;
+}
+
+#login-register {
+  display: inline-block;
+  float: right;
+  right: 0;
+}
+
+/*#login-register select {*/
+  /*background: #f2f2f2 url(../images/menu-mobile.png) no-repeat center right;*/
+  /*border: none !important;*/
+  /*border-radius: 0;*/
+  /*color: #676767;*/
+  /*cursor: pointer;*/
+  /*display: none;*/
+  /*margin: 38px 0;*/
+  /*padding: 7px;*/
+  /*-webkit-appearance: none;*/
+  /*width: 100%;*/
+/*}*/
+
+#login-register ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+#login-register ul li:hover {
+  visibility: inherit;
+}
+
+#login-register ul li {
+  position: relative;
+  display: inline;
+  float: left;
+}
+
+#login-register ul li div {
+  border: 2px solid #57ca8e;
+  border-radius: 5px;
+  display: inline-block;
+  float: left;
+  margin: 25px 13px;
+}
+
+#login-register ul li div a {
+  text-decoration: none;
+  /*text-transform: uppercase;*/
+  font-size: 17px;
+  color: #57ca8e;
+  padding: 9px 14px;
+  display: block;
+  float: left;
+  outline: none;
+  font-weight: normal;
+}
+
+#login-register ul li div a.current {
+  background-color: #57ca8e;
+  color: #fff;
+}
+
+#login-register ul li div a:hover, #login-register ul li.sfHover div a {
+  background-color: #57ca8e;
   color: #fff;
 }
 
@@ -5567,6 +5701,7 @@ a.order_now_new:hover {
   font-size: 0.8824em;
   text-align: center;
   height: 2.2353em;
+  padding: 0 30px;
   margin: 0 auto 0.5882em;
 }
 
@@ -7077,7 +7212,7 @@ a.login-button {
 }
 
 .agree-terms {
-  font: normal normal 300 0.8em Helvetica-Neue, Helvetica, Arial, Verdana, sans-serif;
+  font: normal normal 300 0.8em/1.3em Helvetica-Neue, Helvetica, Arial, Verdana, sans-serif;
   text-align: center;
 }
 

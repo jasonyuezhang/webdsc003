@@ -131,7 +131,7 @@ jQuery(document).ready(function($) {
 })();
 
 /*--------------------------------------------------
- ADDITIONAL CODE FOR POST NEW LABEL
+    Post New Label
  ---------------------------------------------------*/
 //jQuery(document).ready(function($) {
 //    jQuery('#new-label').hover(function() {
@@ -143,6 +143,58 @@ jQuery(document).ready(function($) {
 //        jQuery(".new-post").toggleClass('new-post-active');
 //    });
 //});
+
+/*--------------------------------------------------
+    Post New Lesson Button
+ ---------------------------------------------------*/
+jQuery(document).ready(function($) {
+    jQuery.fn.drags = function(opt) {
+
+        opt = jQuery.extend({handle:"",cursor:"move"}, opt);jQuery
+
+        if(opt.handle === "") {
+            var $el = this;
+        } else {
+            var $el = this.find(opt.handle);
+        }
+
+        return $el.css('cursor', opt.cursor).on("mousedown", function(e) {
+            if(opt.handle === "") {
+                var $drag = jQuery(this).addClass('draggable');
+            } else {
+                var $drag = jQuery(this).addClass('active-handle').parent().addClass('draggable');
+            }
+            var z_idx = $drag.css('z-index'),
+              drg_h = $drag.outerHeight(),
+              drg_w = $drag.outerWidth(),
+              pos_y = $drag.offset().top + drg_h - e.pageY,
+              pos_x = $drag.offset().left + drg_w - e.pageX;
+            $drag.css('z-index', 1000).parents().on("mousemove", function(e) {
+                jQuery('.draggable').offset({
+                    top:e.pageY + pos_y - drg_h,
+                    left:e.pageX + pos_x - drg_w
+                }).on("mouseup", function() {
+                    jQuery(this).removeClass('draggable').css('z-index', z_idx);
+                });
+            });
+            e.preventDefault(); // disable selection
+        }).on("mouseup", function() {
+            if(opt.handle === "") {
+                jQuery(this).removeClass('draggable');
+            } else {
+                jQuery(this).removeClass('active-handle').parent().removeClass('draggable');
+            }
+        });
+
+    }
+
+    jQuery( "#post-new-lesson" ).drags();
+
+    jQuery('#post-new-lesson').hover(function() {
+        /*jQuery("#new-label").toggle('slide', {direction: 'right'}, 280);*/
+        jQuery(this).children('.label').toggleClass('active');
+    });
+});
 
 /*--------------------------------------------------
     Border highlight for register and login page

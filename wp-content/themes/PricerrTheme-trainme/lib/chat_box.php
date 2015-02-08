@@ -63,8 +63,8 @@ $wpdb->query($s);
     <div class="padd10">
 
 
-    <div class="box_title"><?php echo sprintf(__("Conversation #%s - %s", 'PricerrTheme'), $orderid, PricerrTheme_wrap_the_title($post_a->post_title, $pid)); ?></div>
-    <div class="box_content clear">
+    <div class="box-title"><?php echo sprintf(__("Conversation #%s - %s", 'PricerrTheme'), $orderid, PricerrTheme_wrap_the_title($post_a->post_title, $pid)); ?></div>
+    <div class="box-content clear">
 
     <?php
 

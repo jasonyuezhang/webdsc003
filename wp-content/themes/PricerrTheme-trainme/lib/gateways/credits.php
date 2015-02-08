@@ -189,8 +189,8 @@ get_header();
     <div id="content">
         <div class="my_box3">
             <div class="padd10">
-                <div class="box_title"><?php echo __("Purchase with your balance", 'PricerrTheme'); ?></div>
-                <div class="box_content clear">
+                <div class="box-title"><?php echo __("Purchase with your balance", 'PricerrTheme'); ?></div>
+                <div class="box-content clear">
 
                     <?php echo sprintf(__('You have %s in your balance. Click confirm now to pay using your balance.', 'PricerrTheme'), PricerrTheme_get_show_price($crds)); ?>
                     <br/><br/>
