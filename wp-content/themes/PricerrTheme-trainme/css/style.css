@@ -6949,8 +6949,8 @@ input.post-new-textbox-half:invalid {
 }
 
 #login-form .login-submit {
-  height: 46px;
-  margin: 1.5em 0 1.8em;
+  height: 3.2em;
+  margin: 0 0 .5em;
 }
 
 #login-form .lostpass-submit {
@@ -7086,7 +7086,7 @@ input.post-new-textbox-half:invalid {
 .login-button {
   height: 2.7em;
   width: 100%;
-  padding: 0.7em 0.5882em;
+  padding: 0.95em 0.5882em;
 }
 
 a.login-button {
@@ -7361,6 +7361,14 @@ a.payment_feat:hover {
   color: #000;
 }
 
+.full_width_a_div .ad-notice {
+  color: #5898bf;
+  font: 2em/2em Oswald,sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+}
+
 .full_width_a_div iframe {
   display: block;
   margin: 0 auto 28px;
@@ -7386,7 +7394,7 @@ a.payment_feat:hover {
 }
 
 #ad-video-section {
-  background: url(../images/video-bk.png) no-repeat center center fixed;
+  background: url(../images/video-bk.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

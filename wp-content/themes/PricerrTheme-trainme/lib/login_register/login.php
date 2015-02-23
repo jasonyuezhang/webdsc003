@@ -173,7 +173,6 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                     die();
                 }
 
-                do_action('retreive_password', $user_login); // Misspelled and deprecated.
                 do_action('retrieve_password', $user_login);
 
                 // Generate something random for a password... md5'ing current time with a rand salt
@@ -305,8 +304,7 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                 if (isset($_SESSION['redirect_me_back'])) $redirect_to = $_SESSION['redirect_me_back'];
 
                 if ($_POST) {
-                    $user_login = $_POST['log'];
-                    $user_login = sanitize_user($user_login);
+                    $user_login = sanitize_user($_POST['log']);
                     $user_pass = $_POST['pwd'];
                     $rememberme = $_POST['rememberme'];
                 } else {
@@ -329,23 +327,44 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                     }
                 }
 
-                do_action('wp_authenticate', $user_login, $user_pass);
                 if ($user_login && $user_pass) {
+
                     $user = new WP_User(0, $user_login);
 
                     // If the user can't edit posts, send them to their profile.
                     //if ( !$user->has_cap('edit_posts') && ( empty( $redirect_to ) || $redirect_to == 'wp-admin/' ) )
                     //	$redirect_to = get_settings('siteurl') . '/' . 'my-account';
 
-                    if (wp_login($user_login, $user_pass, $using_cookie)) {
+		                if ( is_email( $user_login ) ) {
+
+			                $user = get_user_by_email( $user_login );
+
+			                if ( $user ) {
+				                $user_login = $user->user_login;
+			                }
+			                $user = wp_authenticate_username_password( null, $user_login, $user_pass );
+
+		                } else {
+
+			                $credentials                  = array();
+			                $credentials["user_login"]    = $user_login;
+			                $credentials["user_password"] = $user_pass;
+			                $credentials["remember"]      = $rememberme;
+
+			                $user = wp_signon( $credentials, $using_cookie );
+		                }
+
+                    if ( is_wp_error($user) ) {
+                        if ($using_cookie)
+                            $error = __('Your session has expired.', $current_theme_locale_name);
+                        else
+                            $error = $user->get_error_message();
+                    } else {
                         if (!$using_cookie)
                             wp_setcookie($user_login, $user_pass, false, '', '', $rememberme);
                         do_action('wp_login', $user_login);
                         wp_redirect($redirect_to);
                         exit;
-                    } else {
-                        if ($using_cookie)
-                            $error = __('Your session has expired.', $current_theme_locale_name);
                     }
                 } else if ($user_login || $user_pass) {
                     $error = __('<strong>Error</strong>: The password field is empty.', $current_theme_locale_name);
@@ -384,8 +403,8 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                                             <!--<div class="or">OR</div>-->
                                             <div class="login-textbox-wrapper">
                                                 <label class="login-textbox-icon glyphicon glyphicon-user"></label>
-                                                <!--<label><?php _e('Username', $current_theme_locale_name) ?></label>-->
-                                                <input class="login-textbox glyphicon-indent do_input" type="text" name="log" id="log" value="<?php echo wp_specialchars(stripslashes($user_login), 1); ?>" size="30" placeholder="Username"/>
+                                                <!--<label><?php _e('Username Or Email', $current_theme_locale_name) ?></label>-->
+                                                <input class="login-textbox glyphicon-indent do_input" type="text" name="log" id="log" value="<?php echo wp_specialchars(stripslashes($user_login), 1); ?>" size="30" placeholder="Username Or Email"/>
                                             </div>
                                             <div class="login-textbox-wrapper">
                                                 <label class="login-textbox-icon glyphicon glyphicon-lock"></label>

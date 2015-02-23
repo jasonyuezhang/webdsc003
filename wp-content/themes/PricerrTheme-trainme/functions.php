@@ -5696,11 +5696,19 @@ function PricerrTheme_register_new_user_sitemile($user_login, $user_password, $u
 	return $user_id;
 }
 
-add_filter('authenticate', 'PricerrTheme_allow_email_login', 20, 3);
+add_filter('email_authenticate', 'PricerrTheme_allow_email_login', 20, 3);
 
 function PricerrTheme_allow_email_login( $user, $username, $password ) {
 	if ( is_email( $username ) ) {
+
 		$user = get_user_by_email( $username );
+
+		var_dump($username);
+		echo "e: ";
+		var_dump($user);
+
+		asdfasdfas;
+
 		if ( $user ) $username = $user->user_login;
 	}
 	return wp_authenticate_username_password( null, $username, $password );
