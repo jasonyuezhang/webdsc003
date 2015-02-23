@@ -8,7 +8,7 @@
  *
  ******************************************************************************/
 
-session_start();
+//session_start();
 
 /* Custom timezone mod to ensure correct dates added by Carroll Yu */
 date_default_timezone_set('America/Los_Angeles');
@@ -5641,7 +5641,7 @@ function PricerrTheme_register_new_user_sitemile($user_login, $user_password, $u
     }
 
   // Check the e-mail address
-  $eduMailPattern = '/^[^0-9][_a-z0-9-]+(\.[_a-z0-9-]+)*@([_a-z0-9-]+\.)*([_a-z0-9-])*\.edu$/';
+  $eduMailPattern = '/^[^0-9][_a-z0-9-]+(\.[_a-z0-9-]+)*@([_a-z0-9-]+\.)*([_a-z0-9-])*\.([a-z0-9])*$/';
   
     if ($user_email == '') {
         $errors->add('empty_email', __('<strong>ERROR</strong>: Please type your e-mail address.', $current_theme_locale_name));
@@ -5694,6 +5694,16 @@ function PricerrTheme_register_new_user_sitemile($user_login, $user_password, $u
     PricerrTheme_new_user_notification_admin($user_id);
 
     return $user_id;
+}
+
+add_filter('authenticate', 'PricerrTheme_allow_email_login', 20, 3);
+
+function PricerrTheme_allow_email_login( $user, $username, $password ) {
+  if ( is_email( $username ) ) {
+    $user = get_user_by_email( $username );
+    if ( $user ) $username = $user->user_login;
+  }
+  return wp_authenticate_username_password( null, $username, $password );
 }
 
 function PricerrTheme_update_paypal_email_function($uid, $user_paypal_email)

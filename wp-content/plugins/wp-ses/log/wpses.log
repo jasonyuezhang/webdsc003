@@ -1,0 +1,54 @@
+1424538025	Start Logging
+1424538055	No verified Emails.
+1424538055	Test email request
+1424538055	wpses_mail support@campuslessons.com	
+1424538065	Error	SimpleEmailService::sendEmail(): Encountered an error: Array
+1424538128	No verified Emails.
+1424538128	Prod email request
+1424538128	wpses_mail zhangyue1208@gmail.com	
+1424538139	Error	SimpleEmailService::sendEmail(): Encountered an error: Array
+1424544837	ERROR	wp_mail override by another plugin !!
+1424544837	Then deactivating plugin
+1424544837	wp_mail already defined in /var/www/html/wp-includes/pluggable.php
+1424544853	No verified Emails.
+1424544887	No verified Emails.
+1424544887	API Keys changed, reset state and deactivate
+1424544949	2 Verified Emails.
+1424544949	Deactivate sender_ok=0 Force=0 credentials_ok=0
+1424544949	Credentials ok
+1424544949	Sender Ok
+1424544949	Test email request
+1424544949	wpses_mail support@campuslessons.com	
+1424544949	SES id=0000014bad7ee524-a6651575-da10-4fa9-b96e-b99e849a0c0a-000000
+1424544993	2 Verified Emails.
+1424544993	Prod email request
+1424544993	wpses_mail zhangyue1208@gmail.com	
+1424544993	SES id=0000014bad7f903f-14bc14ff-114a-4958-8a84-6ed25a24d899-000000
+1424545067	2 Verified Emails.
+1424545167	wpses_mail support@campuslessons.com	From: Pricerr Theme <PricerrTheme@wordpress.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+1424545167	SES id=0000014bad8238b7-a92dd87b-b8b7-4cc3-8431-6f02d75abd58-000000
+1424545167	wpses_mail campuslessons@gmail.com	From: Pricerr Theme <PricerrTheme@wordpress.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+1424545167	SES id=0000014bad8239c1-6c772873-cb7a-4f97-b69e-b75af6430d00-000000
+1424545253	2 Verified Emails.
+1424545263	2 Verified Emails.
+1424545271	2 Verified Emails.
+1424545306	wpses_mail support@campuslessons.com	
+1424545306	SES id=0000014bad8457da-d3f69ea0-651e-4ba0-9ef9-dfc9ed2deff4-000000
+1424545782	wpses_mail zhangyue1208@gmail.com	From: Pricerr Theme <PricerrTheme@wordpress.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+1424545782	SES id=0000014bad8b99db-33163a2a-49e4-40e1-a922-efb4bed2c3ac-000000
+1424545984	2 Verified Emails.
+1424545996	2 Verified Emails.
+1424546134	wpses_mail support@campuslessons.com	From: Pricerr Theme <PricerrTheme@wordpress.org>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+1424546134	SES id=0000014bad90f8a8-fe8b792c-4dc9-414a-ae22-7fcbefa4ff2f-000000

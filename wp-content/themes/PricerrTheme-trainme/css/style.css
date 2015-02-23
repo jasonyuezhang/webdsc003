@@ -451,11 +451,11 @@ img, iframe {
 }
 
 #header-wrapper {
-  background-color: #f1f1f1 !important;
+  background-color: #fff !important;
 }
 
 .header {
-  background-color: #f1f1f1 !important;
+  background-color: #fff !important;
   margin: 0;
   padding: 0;
   position: relative;
@@ -6365,7 +6365,7 @@ a.green_btn:link, a.green_btn:visited {
   display: inline-block;
   font-size: 13px;
   margin: 0 5px 8px 0;
-  padding: 0 10px 0 10px;
+  padding: 4px 10px 2px 10px;
   position: relative;
   text-decoration: none;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
@@ -6636,11 +6636,17 @@ width: auto;
 .login-textbox-wrapper,
 #register-form > div {
   font-size: 1em;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 
 .login-textbox-wrapper {
   height: 3.2em;
+}
+
+.login-textbox-wrapper-half {
+  font: 1em/1.6em Oswald, sans-serif;
+  text-align: left;
+  margin-bottom: .5em;
 }
 
 #register-form > div {
@@ -6944,7 +6950,7 @@ margin-top: 0;
 
 #login-form .login-submit {
   height: 46px;
-  margin-bottom: 1em;
+  margin: 1.5em 0 1.8em;
 }
 
 #login-form .lostpass-submit {

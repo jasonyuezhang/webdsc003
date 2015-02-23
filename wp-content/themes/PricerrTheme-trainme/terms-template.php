@@ -1180,7 +1180,7 @@ copyright infringement.<o:p></o:p></span></p>
 Arial'>Our designated copyright agent can be contacted via</span><span
         style='font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
 Arial;color:black;mso-themecolor:text1'> &shy;&shy;<u>campuslessons.com</u> at <u><span
-            style="mso-spacerun:yes">&nbsp;&nbsp;</span><span class=GramE>campuslessons@gmail.com
+            style="mso-spacerun:yes">&nbsp;&nbsp;</span><span class=GramE>support@campuslessons.com
 <span style='text-decoration:none;text-underline:none'>.</span></span></u></span><span
         style='font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
 Arial'><o:p></o:p></span></p>
