@@ -330,7 +330,6 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                 }
 
                 do_action('wp_authenticate', $user_login, $user_pass);
-
                 if ($user_login && $user_pass) {
                     $user = new WP_User(0, $user_login);
 
@@ -338,24 +337,15 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                     //if ( !$user->has_cap('edit_posts') && ( empty( $redirect_to ) || $redirect_to == 'wp-admin/' ) )
                     //	$redirect_to = get_settings('siteurl') . '/' . 'my-account';
 
-                    $credentials = array();
-                    $credentials["user_login"]     = $user_login;
-                    $credentials["user_password"]  = $user_pass;
-                    $credentials["remember"]       = $rememberme;
-
-                    $user = wp_signon($credentials, $using_cookie);
-
-                    if ( is_wp_error($user) ) {
-                        if ($using_cookie)
-                            $error = __('Your session has expired.', $current_theme_locale_name);
-                        else
-                            $error = $user->get_error_message();
-                    } else {
+                    if (wp_login($user_login, $user_pass, $using_cookie)) {
                         if (!$using_cookie)
                             wp_setcookie($user_login, $user_pass, false, '', '', $rememberme);
                         do_action('wp_login', $user_login);
                         wp_redirect($redirect_to);
                         exit;
+                    } else {
+                        if ($using_cookie)
+                            $error = __('Your session has expired.', $current_theme_locale_name);
                     }
                 } else if ($user_login || $user_pass) {
                     $error = __('<strong>Error</strong>: The password field is empty.', $current_theme_locale_name);
@@ -392,16 +382,10 @@ if (!function_exists('PricerrTheme_do_login_scr')) {
                                         <form name="login-form" id="login-form" action="wp-login.php" method="post">
                                             <?php do_action('login_form'); ?>
                                             <!--<div class="or">OR</div>-->
-                                            <div class="login-textbox-wrapper-half">
-                                                <span><?php _e('Username Or Email', $current_theme_locale_name) ?></span>
-                                            </div>
                                             <div class="login-textbox-wrapper">
                                                 <label class="login-textbox-icon glyphicon glyphicon-user"></label>
                                                 <!--<label><?php _e('Username', $current_theme_locale_name) ?></label>-->
                                                 <input class="login-textbox glyphicon-indent do_input" type="text" name="log" id="log" value="<?php echo wp_specialchars(stripslashes($user_login), 1); ?>" size="30" placeholder="Username"/>
-                                            </div>
-                                            <div class="login-textbox-wrapper-half">
-                                                <span><?php _e('Password', $current_theme_locale_name) ?></span>
                                             </div>
                                             <div class="login-textbox-wrapper">
                                                 <label class="login-textbox-icon glyphicon glyphicon-lock"></label>

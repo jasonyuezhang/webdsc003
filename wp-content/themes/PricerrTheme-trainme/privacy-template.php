@@ -376,7 +376,7 @@ transfer your personal information or general information to third parties
 without informing you in advance.<span style="mso-spacerun:yes">&nbsp;
 </span>If you do not want your information transferred to any third party, you
 may opt out by sending an email to <b style='mso-bidi-font-weight:normal'><span
-            style='color:black;mso-themecolor:text1'>:(support@campuslessons.com)</span></strong>.
+            style='color:black;mso-themecolor:text1'>:(campuslessons@gmail.com)</span></strong>.
 Please include "privacy" in the subject line. <o:p></o:p></span></p>
 
     <p class=MsoNormal style='margin-bottom:12.0pt'><b style='mso-bidi-font-weight:

@@ -75,7 +75,7 @@ if (!function_exists('PricerrTheme_do_register_scr')) {
 
                                 <div class="register-conform-button">
                                     <!--<input type="submit" class="register-button" value="<?php _e('Sign Up', $current_theme_locale_name) ?>" id="submits" name="submits"/>-->
-                                    <a class="login-button" href="wp-login.php"><?php _e('Login', $current_theme_locale_name); ?></a>
+                                    <a class="login-button" href="wp-login.php"><?php _e('Login', $current_theme_locale_name); ?> &raquo;</a>
                                 </div>
                             </div>
                         </div>

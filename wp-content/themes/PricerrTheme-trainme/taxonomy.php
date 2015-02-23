@@ -96,7 +96,7 @@ endif;
 
 ?>
 
-    <!--<div class="my_new_box-title"><?php
+    <!--<div class="my_new_box_title"><?php
         //if (empty($term_title)) echo __("All Posted Lessons", 'PricerrTheme');
         //else echo sprintf(__("Latest Posted Lessons in %s", 'PricerrTheme'), $term_title);
         ?>
@@ -132,7 +132,7 @@ if (count($termchildren) > 0): ?>
 <?php endif; ?>
     <div class="filter_jobs">
         <div class="padd5">
-            <div class="col-sm-4 clear pleft0">
+            <div class="col-sm-4 pleft0">
                 <div class="filter_div"><?php _e("Sort by:", 'PricerrTheme'); ?></div>
                 <ul id="filter_jobs_list">
 	                <li>
@@ -146,7 +146,7 @@ if (count($termchildren) > 0): ?>
 	                </li>
                 </ul>
             </div>
-	        <div class="col-sm-3 clear pleft0">
+	        <div class="col-sm-3 pleft0">
 		        <div class="filter_div"><?php _e("College:", 'PricerrTheme'); ?></div>
 		        <div>
 			        <div class="college-dropdown">
@@ -158,7 +158,7 @@ if (count($termchildren) > 0): ?>
 			        </div>
 		        </div>
 	        </div>
-            <div class="col-sm-3 clear pleft0">
+            <div class="col-sm-3 pleft0">
                 <div class="filter_div"><?php _e("Start Date:", 'PricerrTheme'); ?></div>
                 <div id="date_filter_jobs_list">
                     <div class="date-filter-container">
@@ -170,7 +170,7 @@ if (count($termchildren) > 0): ?>
             </div>
             <?php
             $view = PricerrTheme_get_current_view_grid_list();
-            echo '<div class="switchers col-sm-2 clear pright0">';
+            echo '<div class="switchers col-sm-2 pright0">';
             echo '<div class="switch-view-link-container">';
                 if ($view != "grid") {
                     echo '<a href="' . PricerrTheme_switch_link_from_home_page('grid') . '" class="grid-jobs"></a>';

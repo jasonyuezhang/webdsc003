@@ -83,7 +83,7 @@ h1.title, h2.title, h3.title, h4.title, h5.title, h6.title, #primary-menu ul li 
 #footer h3, .services h2, .item-info h3, .item-info-overlay h3,
 #contact-intro h1.title, #contact-intro p, .widget h3.title,
 .post-title h2.title, .post-title h2.title a {
-    font-family: Oswald, sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 pre,
@@ -703,8 +703,8 @@ img, iframe {
 }
 
 /*#primary-menu .menu > li:first-child > a {*/
-  /*color: #fff;*/
-  /*background-color: #7dafcd !important;*/
+/*color: #fff;*/
+/*background-color: #7dafcd !important;*/
 /*}*/
 
 #primary-menu ul li a:hover, #primary-menu ul li.sfHover a {
@@ -794,16 +794,16 @@ img, iframe {
 }
 
 /*#login-register select {*/
-  /*background: #f2f2f2 url(../images/menu-mobile.png) no-repeat center right;*/
-  /*border: none !important;*/
-  /*border-radius: 0;*/
-  /*color: #676767;*/
-  /*cursor: pointer;*/
-  /*display: none;*/
-  /*margin: 38px 0;*/
-  /*padding: 7px;*/
-  /*-webkit-appearance: none;*/
-  /*width: 100%;*/
+/*background: #f2f2f2 url(../images/menu-mobile.png) no-repeat center right;*/
+/*border: none !important;*/
+/*border-radius: 0;*/
+/*color: #676767;*/
+/*cursor: pointer;*/
+/*display: none;*/
+/*margin: 38px 0;*/
+/*padding: 7px;*/
+/*-webkit-appearance: none;*/
+/*width: 100%;*/
 /*}*/
 
 #login-register ul {
@@ -1436,298 +1436,298 @@ h1, .section-title h1.title {
 }
 
 .social-aim, .social-bookmarks li.aim a {
-	background: url(../images/socialize-icons/aim.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/aim.png) no-repeat 0 0;
 }
 .social-aim:hover, .social-bookmarks li.aim a:hover {
-	background: #e95a00 url(../images/socialize-icons/aim.png) 0 40px;
+  background: #e95a00 url(../images/socialize-icons/aim.png) 0 40px;
 }
 .social-apple, .social-bookmarks li.apple a {
-	background: url(../images/socialize-icons/apple.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/apple.png) no-repeat 0 0;
 }
 .social-apple:hover, .social-bookmarks li.apple a:hover {
-	background: #606060 url(../images/socialize-icons/apple.png) 0 40px;
+  background: #606060 url(../images/socialize-icons/apple.png) 0 40px;
 }
 .social-behance, .social-bookmarks li.behance a {
-	background: url(../images/socialize-icons/behance.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/behance.png) no-repeat 0 0;
 }
 .social-behance:hover, .social-bookmarks li.behance a:hover {
-	background: #18a3fe url(../images/socialize-icons/behance.png) 0 40px;
+  background: #18a3fe url(../images/socialize-icons/behance.png) 0 40px;
 }
 .social-blogger, .social-bookmarks li.blogger a {
-	background: url(../images/socialize-icons/blogger.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/blogger.png) no-repeat 0 0;
 }
 .social-blogger:hover, .social-bookmarks li.blogger a:hover {
-	background: #fb913f url(../images/socialize-icons/blogger.png) 0 40px;
+  background: #fb913f url(../images/socialize-icons/blogger.png) 0 40px;
 }
 .social-cargo, .social-bookmarks li.cargo a {
-	background: url(../images/socialize-icons/cargo.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/cargo.png) no-repeat 0 0;
 }
 .social-cargo:hover, .social-bookmarks li.cargo a:hover {
-	background: #00c462 url(../images/socialize-icons/cargo.png) 0 40px;
+  background: #00c462 url(../images/socialize-icons/cargo.png) 0 40px;
 }
 .social-delicious, .social-bookmarks li.delicious a  {
-	background: url(../images/socialize-icons/delicious.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/delicious.png) no-repeat 0 0;
 }
 .social-delicious:hover, .social-bookmarks li.delicious a:hover {
-	background: #3274d1 url(../images/socialize-icons/delicious.png) 0 40px;
+  background: #3274d1 url(../images/socialize-icons/delicious.png) 0 40px;
 }
 .social-deviantart, .social-bookmarks li.deviantart a {
-	background: url(../images/socialize-icons/deviantart.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/deviantart.png) no-repeat 0 0;
 }
 .social-deviantart:hover, .social-bookmarks li.deviantart a:hover {
-	background: #d0de21 url(../images/socialize-icons/deviantart.png) 0 40px;
+  background: #d0de21 url(../images/socialize-icons/deviantart.png) 0 40px;
 }
 .social-digg, .social-bookmarks li.digg a {
-	background: url(../images/socialize-icons/digg.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/digg.png) no-repeat 0 0;
 }
 .social-digg:hover, .social-bookmarks li.digg a:hover {
-	background: #2882c6 url(../images/socialize-icons/digg.png) 0 40px;
+  background: #2882c6 url(../images/socialize-icons/digg.png) 0 40px;
 }
 .social-dopplr, .social-bookmarks li.dopplr a {
-	background: url(../images/socialize-icons/dopplr.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/dopplr.png) no-repeat 0 0;
 }
 .social-dopplr:hover, .social-bookmarks li.dopplr a:hover {
-	background: #99cc66 url(../images/socialize-icons/dopplr.png) 0 40px;
+  background: #99cc66 url(../images/socialize-icons/dopplr.png) 0 40px;
 }
 .social-dribbble, .social-bookmarks li.dribbble a {
-	background: url(../images/socialize-icons/dribbble.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/dribbble.png) no-repeat 0 0;
 }
 .social-dribbble:hover, .social-bookmarks li.dribbble a:hover {
-	background: #ef5b92 url(../images/socialize-icons/dribbble.png) 0 40px;
+  background: #ef5b92 url(../images/socialize-icons/dribbble.png) 0 40px;
 }
 .social-ember, .social-bookmarks li.ember a {
-	background: url(../images/socialize-icons/ember.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/ember.png) no-repeat 0 0;
 }
 .social-ember:hover, .social-bookmarks li.ember a:hover {
-	background: #fb9d00 url(../images/socialize-icons/ember.png) 0 40px;
+  background: #fb9d00 url(../images/socialize-icons/ember.png) 0 40px;
 }
 .social-evernote, .social-bookmarks li.evernote a {
-	background: url(../images/socialize-icons/evernote.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/evernote.png) no-repeat 0 0;
 }
 .social-evernote:hover, .social-bookmarks li.evernote a:hover {
-	background: #77ba2f url(../images/socialize-icons/evernote.png) 0 40px;
+  background: #77ba2f url(../images/socialize-icons/evernote.png) 0 40px;
 }
 .social-facebook, .social-bookmarks li.facebook a {
-	background: url(../images/socialize-icons/facebook.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/facebook.png) no-repeat 0 0;
 }
 .social-facebook:hover, .social-bookmarks li.facebook a:hover {
-	background: #3b5998 url(../images/socialize-icons/facebook.png) 0 40px;
+  background: #3b5998 url(../images/socialize-icons/facebook.png) 0 40px;
 }
 .social-flickr, .social-bookmarks li.flickr a {
-	background: url(../images/socialize-icons/flickr.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/flickr.png) no-repeat 0 0;
 }
 .social-flickr:hover, .social-bookmarks li.flickr a:hover {
-	background: #f1628b url(../images/socialize-icons/flickr.png) 0 40px;
+  background: #f1628b url(../images/socialize-icons/flickr.png) 0 40px;
 }
 .social-forrst, .social-bookmarks li.forrst a {
-	background: url(../images/socialize-icons/forrst.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/forrst.png) no-repeat 0 0;
 }
 .social-forrst:hover , .social-bookmarks li.forrst a:hover{
-	background: #5b9a68 url(../images/socialize-icons/forrst.png) 0 40px;
+  background: #5b9a68 url(../images/socialize-icons/forrst.png) 0 40px;
 }
 .social-github, .social-bookmarks li.github a {
-	background: url(../images/socialize-icons/github.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/github.png) no-repeat 0 0;
 }
 .social-github:hover, .social-bookmarks li.github a:hover {
-	background: #7292a2 url(../images/socialize-icons/github.png) 0 40px;
+  background: #7292a2 url(../images/socialize-icons/github.png) 0 40px;
 }
 .social-google, .social-bookmarks li.google a {
-	background: url(../images/socialize-icons/google.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/google.png) no-repeat 0 0;
 }
 .social-google:hover, .social-bookmarks li.google a:hover{
-	background: #dd4b39 url(../images/socialize-icons/google.png) 0 40px;
+  background: #dd4b39 url(../images/socialize-icons/google.png) 0 40px;
 }
 .social-googleplus, .social-bookmarks li.googleplus a {
-	background: url(../images/socialize-icons/googleplus.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/googleplus.png) no-repeat 0 0;
 }
 .social-googleplus:hover, .social-bookmarks li.googleplus a:hover {
-	background: #d94a39 url(../images/socialize-icons/googleplus.png) 0 40px;
+  background: #d94a39 url(../images/socialize-icons/googleplus.png) 0 40px;
 }
 .social-gowalla, .social-bookmarks li.gowalla a {
-	background: url(../images/socialize-icons/gowalla.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/gowalla.png) no-repeat 0 0;
 }
 .social-gowalla:hover, .social-bookmarks li.gowalla a:hover {
-	background: #ff920d url(../images/socialize-icons/gowalla.png) 0 40px;
+  background: #ff920d url(../images/socialize-icons/gowalla.png) 0 40px;
 }
 .social-grooveshark, .social-bookmarks li.grooveshark a {
-	background: url(../images/socialize-icons/grooveshark.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/grooveshark.png) no-repeat 0 0;
 }
 .social-grooveshark:hover, .social-bookmarks li.grooveshark a:hover {
-	background: #f88e00 url(../images/socialize-icons/grooveshark.png) 0 40px;
+  background: #f88e00 url(../images/socialize-icons/grooveshark.png) 0 40px;
 }
 .social-html5, .social-bookmarks li.html5 a {
-	background: url(../images/socialize-icons/html5.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/html5.png) no-repeat 0 0;
 }
 .social-html5:hover, .social-bookmarks li.html5 a:hover {
-	background: #f3642c url(../images/socialize-icons/html5.png) 0 40px;
+  background: #f3642c url(../images/socialize-icons/html5.png) 0 40px;
 }
 .social-icloud, .social-bookmarks li.icloud a {
-	background: url(../images/socialize-icons/icloud.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/icloud.png) no-repeat 0 0;
 }
 .social-icloud:hover, .social-bookmarks li.icloud a:hover {
-	background: #fb913f url(../images/socialize-icons/icloud.png) 0 40px;
+  background: #fb913f url(../images/socialize-icons/icloud.png) 0 40px;
 }
 .social-lastfm, .social-bookmarks li.lastfm a {
-	background: url(../images/socialize-icons/lastfm.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/lastfm.png) no-repeat 0 0;
 }
 .social-lastfm:hover, .social-bookmarks li.lastfm a:hover {
-	background: #d21309 url(../images/socialize-icons/lastfm.png) 0 40px;
+  background: #d21309 url(../images/socialize-icons/lastfm.png) 0 40px;
 }
 .social-linkedin, .social-bookmarks li.linkedin a {
-	background: url(../images/socialize-icons/linkedin.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/linkedin.png) no-repeat 0 0;
 }
 .social-linkedin:hover, .social-bookmarks li.linkedin a:hover {
-	background: #71b2d0 url(../images/socialize-icons/linkedin.png) 0 40px;
+  background: #71b2d0 url(../images/socialize-icons/linkedin.png) 0 40px;
 }
 .social-metacafe, .social-bookmarks li.metacafe a {
-	background: url(../images/socialize-icons/metacafe.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/metacafe.png) no-repeat 0 0;
 }
 .social-metacafe:hover, .social-bookmarks li.metacafe a:hover {
-	background: #ef4035 url(../images/socialize-icons/metacafe.png) 0 40px;
+  background: #ef4035 url(../images/socialize-icons/metacafe.png) 0 40px;
 }
 .social-mixx, .social-bookmarks li.mixx a {
-	background: url(../images/socialize-icons/mixx.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/mixx.png) no-repeat 0 0;
 }
 .social-mixx:hover, .social-bookmarks li.mixx a:hover {
-	background: #d80330 url(../images/socialize-icons/mixx.png) 0 40px;
+  background: #d80330 url(../images/socialize-icons/mixx.png) 0 40px;
 }
 .social-myspace, .social-bookmarks li.myspace a {
-	background: url(../images/socialize-icons/myspace.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/myspace.png) no-repeat 0 0;
 }
 .social-myspace:hover, .social-bookmarks li.myspace a:hover {
-	background: #003398 url(../images/socialize-icons/myspace.png) 0 40px;
+  background: #003398 url(../images/socialize-icons/myspace.png) 0 40px;
 }
 .social-netvibes, .social-bookmarks li.netvibes a {
-	background: url(../images/socialize-icons/netvibes.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/netvibes.png) no-repeat 0 0;
 }
 .social-netvibes:hover, .social-bookmarks li.netvibes a:hover {
-	background: #629e61 url(../images/socialize-icons/netvibes.png) 0 40px;
+  background: #629e61 url(../images/socialize-icons/netvibes.png) 0 40px;
 }
 .social-newsvine, .social-bookmarks li.newsvine a {
-	background: url(../images/socialize-icons/newsvine.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/newsvine.png) no-repeat 0 0;
 }
 .social-newsvine:hover, .social-bookmarks li.newsvine a:hover {
-	background: #5b965a url(../images/socialize-icons/newsvine.png) 0 40px;
+  background: #5b965a url(../images/socialize-icons/newsvine.png) 0 40px;
 }
 .social-orkut, .social-bookmarks li.orkut a {
-	background: url(../images/socialize-icons/orkut.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/orkut.png) no-repeat 0 0;
 }
 .social-orkut:hover, .social-bookmarks li.orkut a:hover {
-	background: #ed2590 url(../images/socialize-icons/orkut.png) 0 40px;
+  background: #ed2590 url(../images/socialize-icons/orkut.png) 0 40px;
 }
 .social-paypal, .social-bookmarks li.paypal a {
-	background: url(../images/socialize-icons/paypal.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/paypal.png) no-repeat 0 0;
 }
 .social-paypal:hover, .social-bookmarks li.paypal a:hover {
-	background: #32689a url(../images/socialize-icons/paypal.png) 0 40px;
+  background: #32689a url(../images/socialize-icons/paypal.png) 0 40px;
 }
 .social-picasa, .social-bookmarks li.picasa a {
-	background: url(../images/socialize-icons/picasa.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/picasa.png) no-repeat 0 0;
 }
 .social-picasa:hover, .social-bookmarks li.picasa a:hover {
-	background: #444 url(../images/socialize-icons/picasa.png) 0 40px;
+  background: #444 url(../images/socialize-icons/picasa.png) 0 40px;
 }
 .social-pinterest, .social-bookmarks li.pinterest a {
-	background: url(../images/socialize-icons/pinterest.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/pinterest.png) no-repeat 0 0;
 }
 .social-pinterest:hover, .social-bookmarks li.pinterest a:hover {
-	background: #cb2027 url(../images/socialize-icons/pinterest.png) 0 40px;
+  background: #cb2027 url(../images/socialize-icons/pinterest.png) 0 40px;
 }
 .social-plurk, .social-bookmarks li.plurk a {
-	background: url(../images/socialize-icons/plurk.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/plurk.png) no-repeat 0 0;
 }
 .social-plurk:hover, .social-bookmarks li.plurk a:hover {
-	background: #f35b36 url(../images/socialize-icons/plurk.png) 0 40px;
+  background: #f35b36 url(../images/socialize-icons/plurk.png) 0 40px;
 }
 .social-posterous, .social-bookmarks li.posterous a {
-	background: url(../images/socialize-icons/posterous.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/posterous.png) no-repeat 0 0;
 }
 .social-posterous:hover, .social-bookmarks li.posterous a:hover {
-	background: #f9d560 url(../images/socialize-icons/posterous.png) 0 40px;
+  background: #f9d560 url(../images/socialize-icons/posterous.png) 0 40px;
 }
 .social-reddit, .social-bookmarks li.reddit a {
-	background: url(../images/socialize-icons/reddit.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/reddit.png) no-repeat 0 0;
 }
 .social-reddit:hover, .social-bookmarks li.reddit a:hover {
-	background: #bfd0e2 url(../images/socialize-icons/reddit.png) 0 40px;
+  background: #bfd0e2 url(../images/socialize-icons/reddit.png) 0 40px;
 }
 .social-rss, .social-bookmarks li.rss a {
-	background: url(../images/socialize-icons/rss.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/rss.png) no-repeat 0 0;
 }
 .social-rss:hover, .social-bookmarks li.rss a:hover {
-	background: #fe9900 url(../images/socialize-icons/rss.png) 0 40px;
+  background: #fe9900 url(../images/socialize-icons/rss.png) 0 40px;
 }
 .social-skype, .social-bookmarks li.skype a {
-	background: url(../images/socialize-icons/skype.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/skype.png) no-repeat 0 0;
 }
 .social-skype:hover, .social-bookmarks li.skype a:hover {
-	background: #18b7f1 url(../images/socialize-icons/skype.png) 0 40px;
+  background: #18b7f1 url(../images/socialize-icons/skype.png) 0 40px;
 }
 .social-stumbleupon, .social-bookmarks li.stumbleupon a {
-	background: url(../images/socialize-icons/stumbleupon.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/stumbleupon.png) no-repeat 0 0;
 }
 .social-stumbleupon:hover, .social-bookmarks li.stumbleupon a:hover {
-	background: #eb4924 url(../images/socialize-icons/stumbleupon.png) 0 40px;
+  background: #eb4924 url(../images/socialize-icons/stumbleupon.png) 0 40px;
 }
 .social-technorati, .social-bookmarks li.technorati a {
-	background: url(../images/socialize-icons/technorati.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/technorati.png) no-repeat 0 0;
 }
 .social-technorati:hover, .social-bookmarks li.technorati a:hover {
-	background: #7ac84f url(../images/socialize-icons/technorati.png) 0 40px;
+  background: #7ac84f url(../images/socialize-icons/technorati.png) 0 40px;
 }
 .social-tumblr, .social-bookmarks li.tumblr a {
-	background: url(../images/socialize-icons/tumblr.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/tumblr.png) no-repeat 0 0;
 }
 .social-tumblr:hover, .social-bookmarks li.tumblr a:hover {
-	background: #3a5976 url(../images/socialize-icons/tumblr.png) 0 40px;
+  background: #3a5976 url(../images/socialize-icons/tumblr.png) 0 40px;
 }
 .social-twitter, .social-bookmarks li.twitter a {
-	background: url(../images/socialize-icons/twitter.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/twitter.png) no-repeat 0 0;
 }
 .social-twitter:hover, .social-bookmarks li.twitter a:hover {
-	background: #48c4d2 url(../images/socialize-icons/twitter.png) 0 40px;
+  background: #48c4d2 url(../images/socialize-icons/twitter.png) 0 40px;
 }
 .social-vimeo, .social-bookmarks li.vimeo a {
-	background: url(../images/socialize-icons/vimeo.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/vimeo.png) no-repeat 0 0;
 }
 .social-vimeo:hover, .social-bookmarks li.vimeo a:hover {
-	background: #62a0ad url(../images/socialize-icons/vimeo.png) 0 40px;
+  background: #62a0ad url(../images/socialize-icons/vimeo.png) 0 40px;
 }
 .social-wordpress, .social-bookmarks li.wordpress a {
-	background: url(../images/socialize-icons/wordpress.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/wordpress.png) no-repeat 0 0;
 }
 .social-wordpress:hover, .social-bookmarks li.wordpress a:hover {
-	background: #464646 url(../images/socialize-icons/wordpress.png) 0 40px;
+  background: #464646 url(../images/socialize-icons/wordpress.png) 0 40px;
 }
 .social-yahoo, .social-bookmarks li.yahoo a {
-	background: url(../images/socialize-icons/yahoo.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/yahoo.png) no-repeat 0 0;
 }
 .social-yahoo:hover, .social-bookmarks li.yahoo a:hover {
-	background: #ab64bc url(../images/socialize-icons/yahoo.png) 0 40px;
+  background: #ab64bc url(../images/socialize-icons/yahoo.png) 0 40px;
 }
 .social-yelp, .social-bookmarks li.yelp a {
-	background: url(../images/socialize-icons/yelp.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/yelp.png) no-repeat 0 0;
 }
 .social-yelp:hover, .social-bookmarks li.yelp a:hover {
-	background: #c41200 url(../images/socialize-icons/yelp.png) 0 40px;
+  background: #c41200 url(../images/socialize-icons/yelp.png) 0 40px;
 }
 .social-youtube, .social-bookmarks li.youtube a {
-	background: url(../images/socialize-icons/youtube.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/youtube.png) no-repeat 0 0;
 }
 .social-youtube:hover, .social-bookmarks li.youtube a:hover {
-	background: #f45750 url(../images/socialize-icons/youtube.png) 0 40px;
+  background: #f45750 url(../images/socialize-icons/youtube.png) 0 40px;
 }
 .social-zerply, .social-bookmarks li.zerply a {
-	background: url(../images/socialize-icons/zerply.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/zerply.png) no-repeat 0 0;
 }
 .social-zerply:hover, .social-bookmarks li.zerply a:hover {
-	background: #8db259 url(../images/socialize-icons/zerply.png) 0 40px;
+  background: #8db259 url(../images/socialize-icons/zerply.png) 0 40px;
 }
 .social-zootool, .social-bookmarks li.zootool a {
-	background: url(../images/socialize-icons/zootool.png) no-repeat 0 0;
+  background: url(../images/socialize-icons/zootool.png) no-repeat 0 0;
 }
 .social-zootool:hover, .social-bookmarks li.zootool a:hover {
-	background: #262626 url(../images/socialize-icons/zootool.png) 0 40px;
+  background: #262626 url(../images/socialize-icons/zootool.png) 0 40px;
 }
 
 /*--------------------------------------------------
@@ -1744,23 +1744,23 @@ h1, .section-title h1.title {
 }
 
 .skills-graph li {
-	margin-bottom: 10px;
-	font-size: 11px;
-	text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 .skills-graph li p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .skills-graph li strong {
-	margin-left: 5px;
-	color: #444;
-	font-size: 25px;
+  margin-left: 5px;
+  color: #444;
+  font-size: 25px;
 }
 
 .skills-graph li span {
-	height: 40px;
+  height: 40px;
 
 }
 
@@ -3762,13 +3762,13 @@ a.request_job:hover {
   /*margin-bottom: 10px;*/
   display: inline-block;
 
-/*  width: 990px;
-  padding: 10px;
+  /*  width: 990px;
+    padding: 10px;
 
-  margin: auto;
+    margin: auto;
 
-  margin-top: 10px;
-*/
+    margin-top: 10px;
+  */
 }
 
 #wrapper {
@@ -3814,7 +3814,7 @@ a.request_job:hover {
 }
 
 .padd0 {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .padd10 {
@@ -5088,13 +5088,13 @@ a.nice_link:hover {
 
 #right-sidebar {
   /*width: 230px*/
-width: 20%;
+  width: 20%;
 }
 
 .image_holder {
   float: left;
-	margin-right: 15px;
-/*  width: 115px*/
+  margin-right: 15px;
+  /*  width: 115px*/
 }
 
 .image_holder3 {
@@ -5582,7 +5582,7 @@ a:link, a:visited {
 
 #post-new-divs,
 #post-edit-divs {
-text-align: center;
+  text-align: center;
 }
 
 .image_class_pst {
@@ -6411,7 +6411,7 @@ a.green_btn:hover {
 }
 
 .errrs ul {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .textwidget,
@@ -6427,8 +6427,8 @@ margin-bottom: 0;
 }
 
 #footer .textwidget {
-	display: inline-block;
-	margin-top: 11px;
+  display: inline-block;
+  margin-top: 11px;
 }
 
 
@@ -6468,7 +6468,7 @@ margin-bottom: 0;
 
 #suggest_jobs li span {
   background-color: #fff;
-border: none;
+  border: none;
   font: bold 12px;
 }
 
@@ -6525,10 +6525,10 @@ border: none;
 }
 
 .padd0.white-wrapper {
-	padding: 0;
+  padding: 0;
   margin: 0 auto 10px;
   vertical-align: middle;
-	width: 100%;
+  width: 100%;
 }
 
 .padd10.white-wrapper {
@@ -6562,11 +6562,11 @@ border: none;
 }
 
 .register-form {
-width: 470px;
+  width: 470px;
 }
 
 .post-new-form {
-width: auto;
+  width: auto;
 }
 
 .register-confirm-content {
@@ -6800,12 +6800,12 @@ input.post-new-textbox-half:invalid {
 }
 
 .i-will-container {
-display: inline-block;
-margin-top: 11px;
+  display: inline-block;
+  margin-top: 11px;
 }
 
 .i-will-container:first-child {
-margin-top: 0;
+  margin-top: 0;
 }
 
 .i-will {
@@ -7051,42 +7051,42 @@ margin-top: 0;
 }
 
 .wsl_connect_with_provider {
-    display: block;
-    height: 45px;
+  display: block;
+  height: 45px;
 }
 
 .wsl_connect_with_provider {
-    background: url(../../../plugins/wordpress-social-login/assets/img/customize/facebook.png) no-repeat scroll 0 0 transparent;
-    -webkit-transition: 0;
-    transition: 0;
-    background-size: 100% auto;
+  background: url(../../../plugins/wordpress-social-login/assets/img/customize/facebook.png) no-repeat scroll 0 0 transparent;
+  -webkit-transition: 0;
+  transition: 0;
+  background-size: 100% auto;
 }
 
 .wsl_connect_with_provider:active {
-    background: url(../../../plugins/wordpress-social-login/assets/img/customize/facebook.png) no-repeat scroll 0 -45px transparent;
-    -webkit-transition: 0;
-    transition: 0;
-    background-size: 100% auto;
+  background: url(../../../plugins/wordpress-social-login/assets/img/customize/facebook.png) no-repeat scroll 0 -45px transparent;
+  -webkit-transition: 0;
+  transition: 0;
+  background-size: 100% auto;
 }
 
 .register-button,
 .login-button,
 .post-new-button,
 .post-new-upload {
-    font-size: 1em;
-    background: #7dafcd !important;
-    color: rgba(255,255,255,1);
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 0;
-    border-radius: 3em;
-    text-shadow: 0 -0.1176em 0.2941em rgba(125,175,205,.25);
+  font-size: 1em;
+  background: #7dafcd !important;
+  color: rgba(255,255,255,1);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  border-radius: 3em;
+  text-shadow: 0 -0.1176em 0.2941em rgba(125,175,205,.25);
 }
 
 .login-button {
-    height: 2.7em;
-    width: 100%;
-    padding: 0.7em 0.5882em;
+  height: 2.7em;
+  width: 100%;
+  padding: 0.7em 0.5882em;
 }
 
 a.login-button {
@@ -7164,7 +7164,7 @@ a.login-button {
 }
 
 .preview-frame:nth-child(3n) {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .preview-frame img {
@@ -7399,952 +7399,952 @@ a.payment_feat:hover {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .header {
-        width: 714px !important;
-    }
+  .header {
+    width: 714px !important;
+  }
 
-    .control-size {
-        width: 714px !important;
-    }
+  .control-size {
+    width: 714px !important;
+  }
 
-    .rewidth-subtitle {
-        width: 674px !important;
-        margin-left: 20px;
-    }
+  .rewidth-subtitle {
+    width: 674px !important;
+    margin-left: 20px;
+  }
 
-    .content-wrapper, #footer-content, #contact-intro, .contact-popup {
-        width: 714px !important;
-    }
+  .content-wrapper, #footer-content, #contact-intro, .contact-popup {
+    width: 714px !important;
+  }
 
-    .fixed .header {
-        width: 714px !important;
-    }
+  .fixed .header {
+    width: 714px !important;
+  }
 
-    .gallery-grid {
-        width: 720px;
-    }
+  .gallery-grid {
+    width: 720px;
+  }
 
-    .gallery-grid ul li.col2 {
-        width: 354px;
-    }
+  .gallery-grid ul li.col2 {
+    width: 354px;
+  }
 
-    .gallery-grid ul li.col3 {
-        width: 234px;
-    }
+  .gallery-grid ul li.col3 {
+    width: 234px;
+  }
 
-    .gallery-grid ul li.col4 {
-        width: 174px;
-    }
+  .gallery-grid ul li.col4 {
+    width: 174px;
+  }
 
-    .grid.row3 li {
-        width: 237px;
-    }
+  .grid.row3 li {
+    width: 237px;
+  }
 
-    .grid.row4 li {
-        width: 177px;
-    }
+  .grid.row4 li {
+    width: 177px;
+  }
 
-    .grid.row5 li {
-        width: 142px;
-    }
+  .grid.row5 li {
+    width: 142px;
+  }
 
-    .grid.row6 li {
-        width: 118px;
-    }
+  .grid.row6 li {
+    width: 118px;
+  }
 
-    .title_holder {
-        width: 404px;
-        margin-right: 8px;
-    }
+  .title_holder {
+    width: 404px;
+    margin-right: 8px;
+  }
 
-    .image_and_user {
-        margin-bottom: 10px;
-    }
+  .image_and_user {
+    margin-bottom: 10px;
+  }
 
-    #logins,
-    #login-form,
-    #register-form {
-        font-size: 17px;
-    }
+  #logins,
+  #login-form,
+  #register-form {
+    font-size: 17px;
+  }
 
-    .padd5-medal {
-        width: 410px;
-    }
+  .padd5-medal {
+    width: 410px;
+  }
 
-    .title_holder3 {
-        float: left;
-        width: 318px;
-        margin-bottom: 10px;
+  .title_holder3 {
+    float: left;
+    width: 318px;
+    margin-bottom: 10px;
 
-    }
+  }
 
-    .jb-page-image-holder {
-        width: 100%;
-    }
+  .jb-page-image-holder {
+    width: 100%;
+  }
 
-    .jb-page-image-holder .img_class {
-        display: block;
-        margin: 0 auto;
-    }
+  .jb-page-image-holder .img_class {
+    display: block;
+    margin: 0 auto;
+  }
 
-    .job-page-details-holder {
-        width: 100%;
-        margin: 30px 0 0 15px;
-        float: left;
-    }
+  .job-page-details-holder {
+    width: 100%;
+    margin: 30px 0 0 15px;
+    float: left;
+  }
 
-    #header-banner {
-        width: 774px;
-        padding: 0;
-        margin: 0 0 0 -30px;
-    }
+  #header-banner {
+    width: 774px;
+    padding: 0;
+    margin: 0 0 0 -30px;
+  }
 
-    #content-side-bar {
-        width: 468px;
-    }
+  #content-side-bar {
+    width: 468px;
+  }
 
-    #stretch_footer_area {
-        padding-bottom: 406px;
-    }
+  #stretch_footer_area {
+    padding-bottom: 406px;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .header, .control-size {
-        width: 420px !important;
-    }
+  .header, .control-size {
+    width: 420px !important;
+  }
 
-    .header-social-icons-container ul li {
-        display: inline-block;
-        text-align: center;
-    }
+  .header-social-icons-container ul li {
+    display: inline-block;
+    text-align: center;
+  }
 
-    .header-social-icons-container.one-half.last, .header > .one, .header-contacts.one-half span, .header-social-icons-container ul {
-        margin: 0;
-    }
+  .header-social-icons-container.one-half.last, .header > .one, .header-contacts.one-half span, .header-social-icons-container ul {
+    margin: 0;
+  }
 
-    .header-contacts.one-half {
-        text-align: center;
-        margin: 0;
-    }
+  .header-contacts.one-half {
+    text-align: center;
+    margin: 0;
+  }
 
-    #logo {
-        margin-bottom: 0;
-    }
+  #logo {
+    margin-bottom: 0;
+  }
 
-    .rewidth-subtitle {
-        width: 420px;
-        margin: 0;
-    }
+  .rewidth-subtitle {
+    width: 420px;
+    margin: 0;
+  }
 
-    .new-post-container {
-        display: none;
-    }
+  .new-post-container {
+    display: none;
+  }
 
-    .section-title .two-third {
-        margin-bottom: 4px;
-        text-align: center;
-    }
+  .section-title .two-third {
+    margin-bottom: 4px;
+    text-align: center;
+  }
 
-    .content-wrapper, #footer-content, #contact-intro, .contact-popup, #primary-menu select {
-        width: 420px !important;
-    }
+  .content-wrapper, #footer-content, #contact-intro, .contact-popup, #primary-menu select {
+    width: 420px !important;
+  }
 
-    .content-wrapper-narrow {
-        width: 100%;
-    }
+  .content-wrapper-narrow {
+    width: 100%;
+  }
 
-    #right-sidebar {
-        width: 420px;
-    }
+  #right-sidebar {
+    width: 420px;
+  }
 
-    .xoxo #my-account-menu {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
+  .xoxo #my-account-menu {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
 
-    #my-account-admin-menu li, #my-account-admin-menu li a {
-        width: 100%;
-    }
+  #my-account-admin-menu li, #my-account-admin-menu li a {
+    width: 100%;
+  }
 
-    #header-wrapper.fixed {
-        display: none !important;
-    }
+  #header-wrapper.fixed {
+    display: none !important;
+  }
 
-    #primary-menu select {
-        display: block;
-        margin: 25px 0;
-    }
+  #primary-menu select {
+    display: block;
+    margin: 25px 0;
+  }
 
-    #primary-menu ul {
-        display: none;
-    }
+  #primary-menu ul {
+    display: none;
+  }
 
-    #content-side-bar {
-        width: 100%;
-    }
+  #content-side-bar {
+    width: 100%;
+  }
 
-    #filter_jobs_list {
-        font-size: 0.9em;
-    }
+  #filter_jobs_list {
+    font-size: 0.9em;
+  }
 
-    #logins,
-    #login-form,
-    #register-form {
-        font-size: 15px;
-    }
+  #logins,
+  #login-form,
+  #register-form {
+    font-size: 15px;
+  }
 
-    #register-form .register-group,
-    #post-new-form .post-new-group {
-        height: 4.2em;
-        margin-bottom: 0.6em;
-    }
+  #register-form .register-group,
+  #post-new-form .post-new-group {
+    height: 4.2em;
+    margin-bottom: 0.6em;
+  }
 
-    #register-form .register-label,
-    #post-new-form .post-new-label {
-        display: inline;
-        width: 100%;
-        text-align: left;
-        font-weight: 700;
-        height: 22px;
-    }
+  #register-form .register-label,
+  #post-new-form .post-new-label {
+    display: inline;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    height: 22px;
+  }
 
-    .register-textbox,
-    .post-new-textbox {
-        height: 2.5263em;
-        width: 100%;
-    }
+  .register-textbox,
+  .post-new-textbox {
+    height: 2.5263em;
+    width: 100%;
+  }
 
-    #avatar-img {
-        height: 2.4333em;
-        right: 1em;
-        width: 2.4333em;
-    }
+  #avatar-img {
+    height: 2.4333em;
+    right: 1em;
+    width: 2.4333em;
+  }
 
-    .custom-breadcrumbs {
-        display: none;
-    }
+  .custom-breadcrumbs {
+    display: none;
+  }
 
-    .section-title.control-size.one-half {
-        margin: 25px 0 1px;
-    }
+  .section-title.control-size.one-half {
+    margin: 25px 0 1px;
+  }
 
-    .one, .one-half, .two-third, .one-third, .one-fourth {
-        float: left;
-        overflow: hidden;
-        position: relative;
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 25px;
-    }
+  .one, .one-half, .two-third, .one-third, .one-fourth {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
 
-    .gallery-grid {
-        width: 100%;
-        margin: 0;
-    }
+  .gallery-grid {
+    width: 100%;
+    margin: 0;
+  }
 
-    .gallery-grid ul li.col2, .gallery-grid ul li.col3, .gallery-grid ul li.col4 {
-        width: 100%;
-        margin: 0 0 6px 0;
-    }
+  .gallery-grid ul li.col2, .gallery-grid ul li.col3, .gallery-grid ul li.col4 {
+    width: 100%;
+    margin: 0 0 6px 0;
+  }
 
-    .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li {
-        width: 209px;
-    }
+  .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li {
+    width: 209px;
+  }
 
-    .google-map.fullwidth {
-        width: 420px;
-        height: 300px;
-    }
+  .google-map.fullwidth {
+    width: 420px;
+    height: 300px;
+  }
 
-    .contact-button {
-        margin-top: 0;
-    }
+  .contact-button {
+    margin-top: 0;
+  }
 
-    .sub_categories_maps .stuffb {
-        width:33.33%;
-    }
+  .sub_categories_maps .stuffb {
+    width:33.33%;
+  }
 
-    .title_holder {
-        width: 285px;
-    }
+  .title_holder {
+    width: 285px;
+  }
 
-    .order_now_new_btn, .order_now_new_btn > a {
-        width: 100%;
-        padding: 20px 40px;
-    }
+  .order_now_new_btn, .order_now_new_btn > a {
+    width: 100%;
+    padding: 20px 40px;
+  }
 
-    .post-new-form li p {
-        width: 380px;
-    }
+  .post-new-form li p {
+    width: 380px;
+  }
 
-    .padd10 {
-        width: 415px;
-    }
+  .padd10 {
+    width: 415px;
+  }
 
-    .image_and_user {
-        margin-bottom: 10px;
-    }
+  .image_and_user {
+    margin-bottom: 10px;
+  }
 
-    .padd5-medal {
-        width: 330px;
-    }
+  .padd5-medal {
+    width: 330px;
+  }
 
-    .jb-page-image-holder {
-        width: 100%;
-    }
+  .jb-page-image-holder {
+    width: 100%;
+  }
 
-    .jb-page-image-holder .img_class {
-        display: block;
-        margin: 0 auto;
-    }
+  .jb-page-image-holder .img_class {
+    display: block;
+    margin: 0 auto;
+  }
 
-    .job-page-details-holder {
-        width: 100%;
-        margin: 30px auto 0;
-        float: left;
-    }
+  .job-page-details-holder {
+    width: 100%;
+    margin: 30px auto 0;
+    float: left;
+  }
 
-    #browse-by-category-2 {
-        display: none;
-    }
+  #browse-by-category-2 {
+    display: none;
+  }
 
-    #stretch_footer_area {
-        padding-bottom: 719px;
-    }
+  #stretch_footer_area {
+    padding-bottom: 719px;
+  }
 
-    #footer-bottom, #footer-bottom .text-align-right {
-        text-align: center;
-    }
+  #footer-bottom, #footer-bottom .text-align-right {
+    text-align: center;
+  }
 
-    #footer-bottom .one-half {
-        margin-bottom: 2px;
-    }
+  #footer-bottom .one-half {
+    margin-bottom: 2px;
+  }
 
-    #header-banner {
-        width: 480px;
-        padding: 0;
-        margin: 0 0 0 -30px;
-    }
+  #header-banner {
+    width: 480px;
+    padding: 0;
+    margin: 0 0 0 -30px;
+  }
 
-    #back-top {
-        display: none !important;
-    }
+  #back-top {
+    display: none !important;
+  }
 
-    #footer-bottom {
-        padding: 25px 25px 0 25px;
-    }
+  #footer-bottom {
+    padding: 25px 25px 0 25px;
+  }
 
-    #menu-footer {
-        float: none;
-    }
+  #menu-footer {
+    float: none;
+  }
 
-    #menu-footer li {
-        display: inline-block;
-        text-align: center;
-        float: none;
-    }
+  #menu-footer li {
+    display: inline-block;
+    text-align: center;
+    float: none;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 
-    .header, .control-size {
-        width: 320px !important;
-    }
-
-    .header-social-icons-container ul li {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .header-social-icons-container.one-half.last, .header > .one, .header-contacts.one-half span, .header-social-icons-container ul {
-        margin: 0;
-    }
-
-    .header-contacts.one-half {
-        text-align: center;
-        margin: 0;
-    }
-
-    #logo {
-        margin-bottom: 0;
-    }
-
-    .rewidth-subtitle {
-        width: 300px;
-        margin: 0;
-    }
-
-    .new-post-container {
-        display: none;
-    }
-
-    .section-title .two-third {
-        margin-bottom: 4px;
-        text-align: center;
-    }
-
-    .content-wrapper, #footer-content, #contact-intro, .contact-popup {
-        width: 300px !important;
-    }
-
-    .content-wrapper-narrow {
-        width: 100%;
-    }
-
-    #primary-menu select {
-        width: 100%;
-    }
-
-    .post-new-form li p {
-        width: 320px;
-    }
-
-    .padd10 {
-        width: 100%;
-     /*   width: 320px;
-        margin: 0 auto;*/
-    }
-
-    .padd5 {
-        width: 420px;
-    }
-
-    #logins,
-    #login-form,
-    #register-form {
-        font-size: 14px;
-    }
-
-    #login-form > #wp-social-login-connect-options {
-        width: 224px;
-    }
-
-    .wsl_connect_with_provider {
-        height: 30px;
-    }
-
-    .wsl_connect_with_provider {
-        background-size: 100% auto;
-    }
-
-    .wsl_connect_with_provider:active {
-        background-position: 0 -30px;
-    }
-
-    #register-form > .register-group {
-        height: 4.2em;
-        margin-bottom: 0.6em;
-    }
-
-    #register-form .register-label {
-        display: inline;
-        width: 100%;
-        text-align: left;
-        font-weight: 700;
-        height: 22px;
-    }
-
-    .register-textbox {
-        height: 2.2556em;
-        width: 100%;
-    }
-
-    #avatar-img {
-        height: 2.1964em;
-        right: 1em;
-        width: 2.1964em;
-    }
-
-    .image_and_user {
-        margin-bottom: 10px;
-    }
-
-    .padd5-medal {
-        width: 330px;
-    }
-
-    .jb-page-image-holder {
-        width: 100%;
-    }
-
-    .jb-page-image-holder .img_class {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .job-page-details-holder {
-        width: 100%;
-        margin: 30px 0 0 15px;
-        float: left;
-    }
-
-    #browse-by-category-2 {
-        display: none;
-    }
-
-    #right-sidebar {
-        width: 100%;
-    }
-
-    .home-page-sidebar-main ul.xoxo > li {
-        margin: 0 3% 40px 3%;
-        width: 94%;
-    }
-
-    .xoxo #my-account-menu {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .xoxo li ul li {
-        margin: 0 auto;
-    }
-
-    #my-account-admin-menu li, #my-account-admin-menu li a {
-        width: 100%;
-    }
-
-    .ttl_holder_down {
-        height: inherit;
-        margin: 1.5em 0 1.5em 0;
-    }
-
-    .title_holder {
-        width: 100%;
-    }
-
-    .image_holder {
-        width: 100%;
-    }
-
-    .image_holder img {
-        width: 168px;
-        height: 94px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .order_now_new_btn, .order_now_new_btn > a {
-        width: 100%;
-        padding: 10px 30px;
-    }
-
-    #header-wrapper.fixed {
-        display: none !important;
-    }
-
-    #primary-menu select {
-        display: block;
-        margin: 25px 0;
-    }
-
-    #primary-menu ul {
-        display: none;
-    }
-
-    #content-side-bar {
-        width: 100%;
-    }
-
-    .custom-breadcrumbs {
-        display: none;
-    }
-
-    .control-size.one-half {
-        margin: 25px 0 1px !important;
-    }
-
-    .sub_categories_maps .stuffb {
-        width:50%;
-    }
-
-    .one, .one-half, .two-third, .one-third, .one-fourth {
-        float: left;
-        position: relative;
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 25px;
-    }
-
-    .grid li {
-        border-right: none;
-    }
-
-    .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li {
-        width: 300px;
-    }
-
-    .gallery-grid {
-        width: 100%;
-        margin: 0;
-    }
-
-    .gallery-grid ul li.col2, .gallery-grid ul li.col3, .gallery-grid ul li.col4 {
-        width: 100%;
-        margin: 0 0 6px 0;
-    }
-
-    .google-map.fullwidth {
-        width: 420px;
-        height: 300px;
-    }
-
-    .contact-button {
-        margin-top: 0;
-    }
-
-    #filter_jobs_list {
-        font-size: 0.8em;
-    }
-
-    #footer-bottom, #footer-bottom .text-align-right {
-        text-align: center;
-    }
-
-    #footer-bottom .one-half {
-        margin-bottom: 2px;
-    }
-
-    #footer-bottom {
-        margin: 0 -10px;
-    }
-
-    #footer-top {
-        margin: 0 -10px;
-        background-color: #1e1e1e;
-    }
-
-    #footer-content {
-        padding: 0;
-        margin: 0;
-    }
-
-    .content-wrapper {
-        padding: 0 10px;
-    }
-
-    #footer-bottom, #footer-top {
-        padding: 35px 5px;
-    }
-
-    #header-banner {
-        width: 321px;
-        padding: 0;
-        margin: 0 0 0 -11px;
-    }
-
-    #back-top {
-        display: none !important;
-    }
-
-    #footer-bottom {
-        padding: 25px 25px 0 25px;
-    }
-
-    #menu-footer {
-        float: none;
-    }
-
-    #menu-footer li {
-        display: inline-block;
-        text-align: center;
-        float: none;
-    }
-
-    #stretch_footer_area {
-        padding-bottom: 737px;
-    }
-
-    #stretch_footer_area > #stretch_footer_area_inner > .divider {
-        height: 0;
-    }
+  .header, .control-size {
+    width: 320px !important;
+  }
+
+  .header-social-icons-container ul li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .header-social-icons-container.one-half.last, .header > .one, .header-contacts.one-half span, .header-social-icons-container ul {
+    margin: 0;
+  }
+
+  .header-contacts.one-half {
+    text-align: center;
+    margin: 0;
+  }
+
+  #logo {
+    margin-bottom: 0;
+  }
+
+  .rewidth-subtitle {
+    width: 300px;
+    margin: 0;
+  }
+
+  .new-post-container {
+    display: none;
+  }
+
+  .section-title .two-third {
+    margin-bottom: 4px;
+    text-align: center;
+  }
+
+  .content-wrapper, #footer-content, #contact-intro, .contact-popup {
+    width: 300px !important;
+  }
+
+  .content-wrapper-narrow {
+    width: 100%;
+  }
+
+  #primary-menu select {
+    width: 100%;
+  }
+
+  .post-new-form li p {
+    width: 320px;
+  }
+
+  .padd10 {
+    width: 100%;
+    /*   width: 320px;
+       margin: 0 auto;*/
+  }
+
+  .padd5 {
+    width: 420px;
+  }
+
+  #logins,
+  #login-form,
+  #register-form {
+    font-size: 14px;
+  }
+
+  #login-form > #wp-social-login-connect-options {
+    width: 224px;
+  }
+
+  .wsl_connect_with_provider {
+    height: 30px;
+  }
+
+  .wsl_connect_with_provider {
+    background-size: 100% auto;
+  }
+
+  .wsl_connect_with_provider:active {
+    background-position: 0 -30px;
+  }
+
+  #register-form > .register-group {
+    height: 4.2em;
+    margin-bottom: 0.6em;
+  }
+
+  #register-form .register-label {
+    display: inline;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    height: 22px;
+  }
+
+  .register-textbox {
+    height: 2.2556em;
+    width: 100%;
+  }
+
+  #avatar-img {
+    height: 2.1964em;
+    right: 1em;
+    width: 2.1964em;
+  }
+
+  .image_and_user {
+    margin-bottom: 10px;
+  }
+
+  .padd5-medal {
+    width: 330px;
+  }
+
+  .jb-page-image-holder {
+    width: 100%;
+  }
+
+  .jb-page-image-holder .img_class {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .job-page-details-holder {
+    width: 100%;
+    margin: 30px 0 0 15px;
+    float: left;
+  }
+
+  #browse-by-category-2 {
+    display: none;
+  }
+
+  #right-sidebar {
+    width: 100%;
+  }
+
+  .home-page-sidebar-main ul.xoxo > li {
+    margin: 0 3% 40px 3%;
+    width: 94%;
+  }
+
+  .xoxo #my-account-menu {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .xoxo li ul li {
+    margin: 0 auto;
+  }
+
+  #my-account-admin-menu li, #my-account-admin-menu li a {
+    width: 100%;
+  }
+
+  .ttl_holder_down {
+    height: inherit;
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  .title_holder {
+    width: 100%;
+  }
+
+  .image_holder {
+    width: 100%;
+  }
+
+  .image_holder img {
+    width: 168px;
+    height: 94px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .order_now_new_btn, .order_now_new_btn > a {
+    width: 100%;
+    padding: 10px 30px;
+  }
+
+  #header-wrapper.fixed {
+    display: none !important;
+  }
+
+  #primary-menu select {
+    display: block;
+    margin: 25px 0;
+  }
+
+  #primary-menu ul {
+    display: none;
+  }
+
+  #content-side-bar {
+    width: 100%;
+  }
+
+  .custom-breadcrumbs {
+    display: none;
+  }
+
+  .control-size.one-half {
+    margin: 25px 0 1px !important;
+  }
+
+  .sub_categories_maps .stuffb {
+    width:50%;
+  }
+
+  .one, .one-half, .two-third, .one-third, .one-fourth {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .grid li {
+    border-right: none;
+  }
+
+  .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li {
+    width: 300px;
+  }
+
+  .gallery-grid {
+    width: 100%;
+    margin: 0;
+  }
+
+  .gallery-grid ul li.col2, .gallery-grid ul li.col3, .gallery-grid ul li.col4 {
+    width: 100%;
+    margin: 0 0 6px 0;
+  }
+
+  .google-map.fullwidth {
+    width: 420px;
+    height: 300px;
+  }
+
+  .contact-button {
+    margin-top: 0;
+  }
+
+  #filter_jobs_list {
+    font-size: 0.8em;
+  }
+
+  #footer-bottom, #footer-bottom .text-align-right {
+    text-align: center;
+  }
+
+  #footer-bottom .one-half {
+    margin-bottom: 2px;
+  }
+
+  #footer-bottom {
+    margin: 0 -10px;
+  }
+
+  #footer-top {
+    margin: 0 -10px;
+    background-color: #1e1e1e;
+  }
+
+  #footer-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-wrapper {
+    padding: 0 10px;
+  }
+
+  #footer-bottom, #footer-top {
+    padding: 35px 5px;
+  }
+
+  #header-banner {
+    width: 321px;
+    padding: 0;
+    margin: 0 0 0 -11px;
+  }
+
+  #back-top {
+    display: none !important;
+  }
+
+  #footer-bottom {
+    padding: 25px 25px 0 25px;
+  }
+
+  #menu-footer {
+    float: none;
+  }
+
+  #menu-footer li {
+    display: inline-block;
+    text-align: center;
+    float: none;
+  }
+
+  #stretch_footer_area {
+    padding-bottom: 737px;
+  }
+
+  #stretch_footer_area > #stretch_footer_area_inner > .divider {
+    height: 0;
+  }
 }
 
 @media only screen and (max-width: 319px) {
-    .header, .control-size {
-        width: 320px !important;
-    }
+  .header, .control-size {
+    width: 320px !important;
+  }
 
-    .header-social-icons-container ul li {
-        display: inline-block;
-        text-align: center;
-    }
+  .header-social-icons-container ul li {
+    display: inline-block;
+    text-align: center;
+  }
 
-    .header-social-icons-container.one-half.last, .header > .one, .header-contacts.one-half span, .header-social-icons-container ul {
-        margin: 0;
-    }
+  .header-social-icons-container.one-half.last, .header > .one, .header-contacts.one-half span, .header-social-icons-container ul {
+    margin: 0;
+  }
 
-    .header-contacts.one-half {
-        text-align: center;
-        margin: 0;
-    }
+  .header-contacts.one-half {
+    text-align: center;
+    margin: 0;
+  }
 
-    #logo {
-        margin-bottom: 0;
-    }
+  #logo {
+    margin-bottom: 0;
+  }
 
-    .rewidth-subtitle {
-        width: 300px;
-        margin: 0;
-    }
+  .rewidth-subtitle {
+    width: 300px;
+    margin: 0;
+  }
 
-    .new-post-container {
-        display: none;
-    }
+  .new-post-container {
+    display: none;
+  }
 
-    .section-title .two-third {
-        margin-bottom: 4px;
-        text-align: center;
-    }
+  .section-title .two-third {
+    margin-bottom: 4px;
+    text-align: center;
+  }
 
-    .content-wrapper, #footer-content, #contact-intro, .contact-popup, #primary-menu select {
-        width: 300px !important;
-    }
+  .content-wrapper, #footer-content, #contact-intro, .contact-popup, #primary-menu select {
+    width: 300px !important;
+  }
 
-    .content-wrapper-narrow {
-        width: 100%;
-    }
+  .content-wrapper-narrow {
+    width: 100%;
+  }
 
-    .post-new-form li p {
-        width: 320px;
-    }
+  .post-new-form li p {
+    width: 320px;
+  }
 
-    .padd10 {
-        width: 100%;
-    }
+  .padd10 {
+    width: 100%;
+  }
 
-    .padd5 {
-        width: 420px;
-    }
+  .padd5 {
+    width: 420px;
+  }
 
-    #logins,
-    #login-form,
-    #register-form {
-        font-size: 14px;
-    }
+  #logins,
+  #login-form,
+  #register-form {
+    font-size: 14px;
+  }
 
-    #register-form > .register-group {
-        height: 4.2em;
-        margin-bottom: 0.6em;
-    }
+  #register-form > .register-group {
+    height: 4.2em;
+    margin-bottom: 0.6em;
+  }
 
-    #register-form .register-label {
-        display: inline;
-        width: 100%;
-        text-align: left;
-        font-weight: 700;
-        height: 22px;
-    }
+  #register-form .register-label {
+    display: inline;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    height: 22px;
+  }
 
-    .register-textbox {
-        height: 2.2556em;
-        width: 100%;
-    }
+  .register-textbox {
+    height: 2.2556em;
+    width: 100%;
+  }
 
-    .image_and_user {
-        margin-bottom: 10px;
-    }
+  .image_and_user {
+    margin-bottom: 10px;
+  }
 
-    .padd5-medal {
-        width: 330px;
-    }
+  .padd5-medal {
+    width: 330px;
+  }
 
-    .jb-page-image-holder {
-        width: 100%;
-    }
+  .jb-page-image-holder {
+    width: 100%;
+  }
 
-    .jb-page-image-holder .img_class {
-        display: block;
-        margin: 0 auto;
-    }
+  .jb-page-image-holder .img_class {
+    display: block;
+    margin: 0 auto;
+  }
 
-    .job-page-details-holder {
-        width: 100%;
-        margin: 30px 0 0 15px;
-        float: left;
-    }
+  .job-page-details-holder {
+    width: 100%;
+    margin: 30px 0 0 15px;
+    float: left;
+  }
 
-    #browse-by-category-2 {
-        display: none;
-    }
+  #browse-by-category-2 {
+    display: none;
+  }
 
-    #right-sidebar {
-        width: 100%;
-    }
+  #right-sidebar {
+    width: 100%;
+  }
 
-    .home-page-sidebar-main ul.xoxo > li {
-        margin: 0 3% 40px 3%;
-        width: 94%;
-    }
+  .home-page-sidebar-main ul.xoxo > li {
+    margin: 0 3% 40px 3%;
+    width: 94%;
+  }
 
-    .xoxo #my-account-menu {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
+  .xoxo #my-account-menu {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .xoxo li ul li {
-        margin: 0 auto;
-    }
+  .xoxo li ul li {
+    margin: 0 auto;
+  }
 
-    #my-account-admin-menu li, #my-account-admin-menu li a {
-        width: 100%;
-    }
+  #my-account-admin-menu li, #my-account-admin-menu li a {
+    width: 100%;
+  }
 
-    .ttl_holder_down {
-        height: inherit;
-        margin: 1.5em 0 1.5em 0;
-    }
+  .ttl_holder_down {
+    height: inherit;
+    margin: 1.5em 0 1.5em 0;
+  }
 
-    .title_holder {
-        width: 100%;
-    }
+  .title_holder {
+    width: 100%;
+  }
 
-    .image_holder {
-        width: 100%;
-    }
+  .image_holder {
+    width: 100%;
+  }
 
-    .image_holder img {
-        width: 168px;
-        height: 94px;
-        display: block;
-        margin: 0 auto;
-    }
+  .image_holder img {
+    width: 168px;
+    height: 94px;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .order_now_new_btn, .order_now_new_btn > a {
-        width: 100%;
-        padding: 10px 30px;
-    }
+  .order_now_new_btn, .order_now_new_btn > a {
+    width: 100%;
+    padding: 10px 30px;
+  }
 
-    #header-wrapper.fixed {
-        display: none !important;
-    }
+  #header-wrapper.fixed {
+    display: none !important;
+  }
 
-    #primary-menu select {
-        display: block;
-        margin: 25px 0;
-    }
+  #primary-menu select {
+    display: block;
+    margin: 25px 0;
+  }
 
-    #primary-menu ul {
-        display: none;
-    }
+  #primary-menu ul {
+    display: none;
+  }
 
-    #content-side-bar {
-        width: 100%;
-    }
+  #content-side-bar {
+    width: 100%;
+  }
 
-    .custom-breadcrumbs {
-        display: none;
-    }
+  .custom-breadcrumbs {
+    display: none;
+  }
 
-    .control-size.one-half {
-        margin: 25px 0 1px !important;
-    }
+  .control-size.one-half {
+    margin: 25px 0 1px !important;
+  }
 
-    .sub_categories_maps .stuffb {
-        width:50%;
-    }
+  .sub_categories_maps .stuffb {
+    width:50%;
+  }
 
-    .one, .one-half, .two-third, .one-third, .one-fourth {
-        float: left;
-        position: relative;
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 25px;
-    }
+  .one, .one-half, .two-third, .one-third, .one-fourth {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
 
-    .grid li {
-        border-right: none;
-    }
+  .grid li {
+    border-right: none;
+  }
 
-    .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li {
-        width: 300px;
-    }
+  .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li {
+    width: 300px;
+  }
 
-    .gallery-grid {
-        width: 100%;
-        margin: 0;
-    }
+  .gallery-grid {
+    width: 100%;
+    margin: 0;
+  }
 
-    .gallery-grid ul li.col2, .gallery-grid ul li.col3, .gallery-grid ul li.col4 {
-        width: 100%;
-        margin: 0 0 6px 0;
-    }
+  .gallery-grid ul li.col2, .gallery-grid ul li.col3, .gallery-grid ul li.col4 {
+    width: 100%;
+    margin: 0 0 6px 0;
+  }
 
-    .google-map.fullwidth {
-        width: 420px;
-        height: 300px;
-    }
+  .google-map.fullwidth {
+    width: 420px;
+    height: 300px;
+  }
 
-    .contact-button {
-        margin-top: 0;
-    }
+  .contact-button {
+    margin-top: 0;
+  }
 
-    #filter_jobs_list {
-        font-size: 0.8em;
-    }
+  #filter_jobs_list {
+    font-size: 0.8em;
+  }
 
-    #footer-bottom, #footer-bottom .text-align-right {
-        text-align: center;
-    }
+  #footer-bottom, #footer-bottom .text-align-right {
+    text-align: center;
+  }
 
-    #footer-bottom .one-half {
-        margin-bottom: 2px;
-    }
+  #footer-bottom .one-half {
+    margin-bottom: 2px;
+  }
 
-    #footer-bottom {
-        margin: 0 -10px;
-    }
+  #footer-bottom {
+    margin: 0 -10px;
+  }
 
-    #footer-top {
-        margin: 0 -10px;
-        background-color: #1e1e1e;
-    }
+  #footer-top {
+    margin: 0 -10px;
+    background-color: #1e1e1e;
+  }
 
-    #footer-content {
-        padding: 0;
-        margin: 0;
-    }
+  #footer-content {
+    padding: 0;
+    margin: 0;
+  }
 
-    .content-wrapper {
-        padding: 0 10px;
-    }
+  .content-wrapper {
+    padding: 0 10px;
+  }
 
-    #footer-bottom, #footer-top {
-        padding: 35px 5px;
-    }
+  #footer-bottom, #footer-top {
+    padding: 35px 5px;
+  }
 
-    #header-banner {
-        width: 321px;
-        padding: 0;
-        margin: 0 0 0 -11px;
-    }
+  #header-banner {
+    width: 321px;
+    padding: 0;
+    margin: 0 0 0 -11px;
+  }
 
-    #back-top {
-        display: none !important;
-    }
+  #back-top {
+    display: none !important;
+  }
 
-    #footer-bottom {
-        padding: 25px 25px 0 25px;
-    }
+  #footer-bottom {
+    padding: 25px 25px 0 25px;
+  }
 
-    #menu-footer {
-        float: none;
-    }
+  #menu-footer {
+    float: none;
+  }
 
-    #menu-footer li {
-        display: inline-block;
-        text-align: center;
-        float: none;
-    }
+  #menu-footer li {
+    display: inline-block;
+    text-align: center;
+    float: none;
+  }
 
-    #stretch_footer_area {
-        padding-bottom: 737px;
-    }
+  #stretch_footer_area {
+    padding-bottom: 737px;
+  }
 
-    #stretch_footer_area > #stretch_footer_area_inner > .divider {
-        height: 0;
-    }
+  #stretch_footer_area > #stretch_footer_area_inner > .divider {
+    height: 0;
+  }
 }

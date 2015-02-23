@@ -10,9 +10,6 @@ get_header();
 ?>
 
 </div>
-<div style="width: 100%;">
-    <h1 style="text-align: center; color: #59a7e5;">Edu email account is NOT necessary!</h1>
-</div>
 <div>
 
 <?php
